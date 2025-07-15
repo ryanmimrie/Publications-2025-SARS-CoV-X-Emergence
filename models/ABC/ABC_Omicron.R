@@ -232,7 +232,7 @@ if(exists(here("models", "ABC", "ABC_samples_Alpha"))){
   rm(here("models", "ABC", "ABC_samples_Alpha"))
 }
 
-dir.create(here("models", "ABC", "ABC_samples_Alpha"))
+dir.create(here("models", "ABC", "ABC_samples_Delta"))
   
 for (s in (1:iterations)){
   
@@ -397,7 +397,7 @@ print(mean(scotland$contact_matrices))
   cat("\n")
   print(virus[,c(1:12)])
   
-  outfile <- sprintf("ABC_samples/%s_%s.csv", file_prefix, s)
+  outfile <- here("models", "ABC", "ABC_samples_Omicron", sprintf("/%s_%s.csv", file_prefix, s))
   
   write_csv(virus, outfile)
   
