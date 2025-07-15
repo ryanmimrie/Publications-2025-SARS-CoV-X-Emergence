@@ -24,6 +24,11 @@
 #     example, 100 duplicate files can be run in parallel with file_prefix of
 #     1 to 100, each with 25000 iterations.
 
+# File paths:
+# This script uses the here() library to set paths dynamically. Path errors may occur
+# if this script is opened in an already running Rstudio session. To resolve this,
+# close Rstudio and reopen it by double-clicking on this file.
+
 # ----- 0.2. Dependencies ------------------------------------------------------
 
 file_prefix <- 1
