@@ -1,3 +1,5 @@
+# Note: This script is called as a subprocess from calculate_distances.R
+
 import os
 import csv
 import math
