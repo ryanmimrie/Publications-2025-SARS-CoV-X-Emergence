@@ -1,3 +1,7 @@
+
+
+# ----- 0.2. Dependencies ------------------------------------------------------
+
 library(readxl)
 library(tidyverse)
 library(lme4)
@@ -6,7 +10,10 @@ library(emmeans)
 library(gridExtra)
 library(here)
 
-process_sheet <- function(sheet_name) {
+# ----- 0.3. Load Data Custom Function -----------------------------------------
+
+
+get_data_from_sheets <- function(sheet_name) {
   
   sheet_data <- read_excel(file_path, sheet = sheet_name, range = "B1:M18")
   
@@ -38,29 +45,35 @@ process_sheet <- function(sheet_name) {
   return(combined)
 }
 
+# ----- 0.4. Load Data ---------------------------------------------------------
+
 file_path <- here("data", "OCT2024_ Rs4084_pseudotype fixed template.xlsx")
 sheet_names <- excel_sheets(file_path)
-data1 <- map_dfr(sheet_names[1:9], process_sheet)
+data1 <- map_dfr(sheet_names[1:9], get_data_from_sheets)
 
 file_path <- here("data", "OCT2024_GXP1E_pseudotype fixed template.xlsx")
 sheet_names <- excel_sheets(file_path)
-data2 <- map_dfr(sheet_names[1:9], process_sheet)
+data2 <- map_dfr(sheet_names[1:9], get_data_from_sheets)
 
 file_path <- here("data", "OCT2024_RaTG13_pseudotype fixed template.xlsx")
 sheet_names <- excel_sheets(file_path)
-data3 <- map_dfr(sheet_names[1:9], process_sheet)
+data3 <- map_dfr(sheet_names[1:9], get_data_from_sheets)
 
 file_path <- here("data", "OCT2024_SARS-CoV-1_pseudotype fixed template.xlsx")
 sheet_names <- excel_sheets(file_path)
-data4 <- map_dfr(sheet_names[1:9], process_sheet)
+data4 <- map_dfr(sheet_names[1:9], get_data_from_sheets)
 
-data <- rbind(data1, data2, data3, data4)
+data <- rbind(data1, data2, data3, data4) %>% na.omit()
 
-data <- na.omit(data)
+data$ID <- ifelse(data$ID == "38803", "RG38803", data$ID) # Fix typo
+
+# ------------------------------------------------------------------------------
+# ----- 1. Data Wrangling ------------------------------------------------------
+# ------------------------------------------------------------------------------
+
+# ----- 1.1. Calculate Neutralisation % ----------------------------------------
 
 data$fluorescence <- as.numeric(data$fluorescence)
-
-#rm(list = setdiff(ls(), "data"))
 
 data_NSC <- filter(data, ID == "NSC")
 
@@ -71,14 +84,13 @@ data <- data %>% filter(!ID %in% c("NSC", "-ve", "+ve")) %>%
   group_by(ID, plate, virus) %>%
   summarise(fluorescence_mean = mean(fluorescence))
 
-
 data <- left_join(data, data_NSC)
-
-data$ID <- ifelse(data$ID == "38803", "RG38803", data$ID)
 
 data$neutralisation <- 100 - (data$fluorescence_mean / data$fluorescence_NSC) * 100
 
 data$neutralisation <- ifelse(data$neutralisation < 0, 0, data$neutralisation)
+
+# ----- 1.2. Add Sample Metadata -----------------------------------------------
 
 metadata <- read_csv("2023_SARSCoV2_data.csv")[,1:3]
 
@@ -100,6 +112,12 @@ data$history <- ifelse(grepl("I_W", data$Group), "Recovered: Wuhan",
                               ifelse(grepl("I_D", data$Group), "Recovered: Delta", "Naive")))
 
 data$history <- factor(data$history , levels = c("Naive", "Recovered: Wuhan", "Recovered: Alpha", "Recovered: Delta"))
+
+# ------------------------------------------------------------------------------
+# ----- 2. Figure 1 ------------------------------------------------------------
+# ------------------------------------------------------------------------------
+
+# ----- 2.1 Plots --------------------------------------------------------------
 
 p1 <- ggplot(filter(data, Doses == "Unvaccinated")) +
   geom_point(aes(x = virus, y = neutralisation), position = position_jitter(width = 0.1, height = 0), alpha = 0.25) +
@@ -148,6 +166,15 @@ p3 <- ggplot(filter(data, Doses == "Vaccinated: 2 doses")) +
   scale_fill_manual(values = c("#e74c3c", "#f1c40f", "#1abc9c", "#3498db"), labels = c("SARS-CoV", "GX/P1E (pangolin)", "Rs4084 (bat)", "RaTG13 (bat)")) +
   ggtitle("C.") +
   coord_fixed(ratio = 0.0375)
+
+
+
+
+
+
+
+
+
 
 data$cat <- ifelse(data$history == "Naive" & data$Doses != "Unvaccinated", "Vaccinated",
                    ifelse(data$history != "Naive" & data$Doses == "Unvaccinated", "Infected",
