@@ -31,7 +31,7 @@ file_prefix <- 1
 
 Sys.sleep((file_prefix - 1) * 2.5)
 
-library(odin.dust); library(tidyverse); library(socialmixr);library(abind)
+library(odin.dust); library(tidyverse); library(socialmixr); library(abind); library(here)
 
 # ----- 0.3 Convenience Functions ----------------------------------------------
 
@@ -42,9 +42,7 @@ add <- function(list, name, object){
 
 # ----- 0.4. Load Odin Model ---------------------------------------------------
 
-setwd("~/Research/Odin")
-
-model <- odin_dust("models/Odin_Model.R")
+model <- odin_dust(here("models", "Odin_Model.R"))
 
 # ------------------------------------------------------------------------------
 # ----- 1. Model Parameterisation ----------------------------------------------
@@ -56,7 +54,7 @@ parameters <- list()
 
 parameters <- add(parameters, "model_iterations", 10)
 
-parameters <- add(parameters, "model_duration", 850)
+parameters <- add(parameters, "model_duration", 450)
 
 parameters <- add(parameters, "model_times", seq(1, parameters$model_duration, by = 1))
 
@@ -65,16 +63,16 @@ parameters <- add(parameters, "model_times", seq(1, parameters$model_duration, b
 scotland <- list()
 
 with(scotland, {
-  groups <- read_csv("data/pop_structure.csv")$age_group
-  values <- read_csv("data/pop_structure.csv")[,2:6]
+  groups <- read_csv(here("data", "pop_structure.csv"))$age_group
+  values <- read_csv(here("data", "pop_structure.csv"))[,2:6]
   for (i in c(1:ncol(values))){
     new <- values[[i]]
     names(new) <- groups
     scotland <<- add(scotland, colnames(values)[i], new)
   }
   
-  ages <- read_csv("data/pop_individual_ages.csv")$age
-  n <- read_csv("data/pop_individual_ages.csv")$n_by_indiv_years
+  ages <- read_csv(here("data", "pop_individual_ages.csv"))$age
+  n <- read_csv(here("data", "pop_individual_ages.csv"))$n_by_indiv_years
   names(n) <- ages
   
   scotland <<- add(scotland, "n_by_year", n)
@@ -103,27 +101,27 @@ scotland <<- add(scotland, "n_by_year_cutoff", c(scotland$n_by_year[1:85], "85+"
 
 # ----- 1.3. Scotland Vacination Rates -----------------------------------------
 
-scotland <- add(scotland, "vaccination_dose1", as.matrix(read_csv("data/vaccination_dose1.csv")[,2:17])[1:parameters$model_duration, ])
+scotland <- add(scotland, "vaccination_dose1", as.matrix(read_csv(here("data", "vaccination_dose1.csv"))[,2:17])[1:parameters$model_duration, ])
 scotland <- add(scotland, "vaccination_dose2",
-                as.matrix(read_csv("data/vaccination_dose2.csv")[,2:17])[1:parameters$model_duration, ])
+                as.matrix(read_csv(here("data", "vaccination_dose2.csv"))[,2:17])[1:parameters$model_duration, ])
 
 # ----- 1.4. Scotland Social Structure -----------------------------------------
 
-scotland <- add(scotland, "contact_matrices", readRDS("data/contact_matrices.rds"))
+scotland <- add(scotland, "contact_matrices", readRDS(here("data", "contact_matrices.rds")))
 
 # ----- 1.5 SARS-CoV-2 Variant Prevalences -------------------------------------
 
 viruses <- list()
 
-viruses <- add(viruses, "prevalence_wuhan", read_csv("data/SARS2_variant_prevalences.csv")$wuhan[1:parameters$model_duration])
-viruses <- add(viruses, "prevalence_alpha", read_csv("data/SARS2_variant_prevalences.csv")$alpha[1:parameters$model_duration])
-viruses <- add(viruses, "prevalence_delta", read_csv("data/SARS2_variant_prevalences.csv")$delta[1:parameters$model_duration])
-viruses <- add(viruses, "prevalence_omicron", read_csv("data/SARS2_variant_prevalences.csv")$omicron[1:parameters$model_duration])
+viruses <- add(viruses, "prevalence_wuhan", read_csv(here("data", "SARS2_variant_prevalences.csv"))$wuhan[1:parameters$model_duration])
+viruses <- add(viruses, "prevalence_alpha", read_csv(here("data", "SARS2_variant_prevalences.csv"))$alpha[1:parameters$model_duration])
+viruses <- add(viruses, "prevalence_delta", read_csv(here("data", "SARS2_variant_prevalences.csv"))$delta[1:parameters$model_duration])
+viruses <- add(viruses, "prevalence_omicron", read_csv(here("data", "SARS2_variant_prevalences.csv"))$omicron[1:parameters$model_duration])
 
 # ----- 1.6 SARS-CoV-2 Variant Phenotypes --------------------------------------
 
 with(viruses, {
-  phenotypes <- read_csv("data/SARS2_infection_phenotypes_by_age.csv")
+  phenotypes <- read_csv(here("data", "SARS2_infection_phenotypes_by_age.csv"))
   
   for (v in unique(phenotypes$virus)){
     current <- filter(phenotypes, virus == v)
@@ -141,17 +139,17 @@ immunity <- list()
 
 with(immunity, {
   
-  reinfection <- read_csv("data/SARS2_immunity_reinfection_by_age.csv")
+  reinfection <- read_csv(here("data", "SARS2_immunity_reinfection_by_age.csv"))
   for(v in reinfection$virus){
     immunity <<- add(immunity, sprintf("immunity_reinfection_%s", v), filter(reinfection, virus == v)[,3:21] %>% as.matrix())
   }
   
-  virulence <- read_csv("data/SARS2_immunity_virulence_by_age.csv")
+  virulence <- read_csv(here("data", "SARS2_immunity_virulence_by_age.csv"))
   for(v in virulence$virus){
     immunity <<- add(immunity, sprintf("immunity_virulence_%s", v), filter(virulence, virus == v)[,3:21] %>% as.matrix())
   }
   
-  waning <- read_csv("data/SARS2_waning_rates.csv")
+  waning <- read_csv(here("data", "SARS2_waning_rates.csv"))
   
   for (i in c(1:nrow(waning))){
     immunity <<- add(immunity, sprintf("u_waning_%s", waning$immunity[[i]]), rep(waning$u_waning[[i]], 16))
@@ -226,13 +224,15 @@ prior_waning_omicron <- c(meanlog = -5, sdlog = 2)
 
 iterations <- 2500000
 
-posterior <- read_csv("Steps/posterior_WAD.csv")
+posterior <- read_csv(here("models", "ABC", "posterior_Wuhan.csv")
 
 # ----- 2.2 Model Execution ----------------------------------------------------
 
-if(exists("outdata")){
-  rm(outdata)
+if(exists(here("models", "ABC", "ABC_samples_Alpha"))){
+  rm(here("models", "ABC", "ABC_samples_Alpha"))
 }
+
+dir.create(here("models", "ABC", "ABC_samples_Alpha"))
   
 for (s in (1:iterations)){
   
