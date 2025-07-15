@@ -228,11 +228,11 @@ iterations <- 2500000
 
 # ----- 2.2 Model Execution ----------------------------------------------------
 
-if(exists(here("models", "ABC", "outdata"))){
-  rm(outdata)
+if(exists(here("models", "ABC", "ABC_samples_Wuhan"))){
+  rm(here("models", "ABC", "ABC_samples_Wuhan"))
 }
 
-dir.create(here("models", "ABC", "outdata"))
+dir.create(here("models", "ABC", "ABC_samples_Wuhan"))
   
 for (s in (1:iterations)){
   
@@ -386,7 +386,7 @@ print(mean(scotland$contact_matrices))
   cat("\n")
   print(virus[,c(1:12)])
   
-  outfile <- here("models", "ABC", "outfile", sprintf("ABC_samples_W/%s_%s.csv", file_prefix, s))
+  outfile <- here("models", "ABC", "ABC_samples_Wuhan", sprintf("/%s_%s.csv", file_prefix, s))
   
   write_csv(virus, outfile)
   
