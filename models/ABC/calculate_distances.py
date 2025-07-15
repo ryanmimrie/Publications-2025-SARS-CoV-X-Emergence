@@ -37,8 +37,8 @@ def process_files(directory, file_prefix, data):
 
             a, b, c, d, e, f, g, h, i, j, k, l = values[:12]
             m = ','.join(values[12:])
-
-            list_of_trials = [[int(float(val.strip().strip('"').strip("'"))) for val in segment.split(',') if val.strip()] for segment in m.split(';') if segment.strip()]
+            
+            list_of_trials = [[float(val.strip().strip('"').strip("'")) for val in segment.split(',') if val.strip()] for segment in m.split(';') if segment.strip()]
 
             list_of_trials = [sublist for sublist in list_of_trials if sublist and sublist[-1] != 0]
 
