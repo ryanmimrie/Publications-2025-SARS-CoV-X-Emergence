@@ -223,7 +223,7 @@ prior_waning_omicron <- c(meanlog = -5, sdlog = 2)
 
 iterations <- 2500000
 
-posterior <- read_csv(here("models", "ABC", "posterior_W.csv")
+posterior <- read_csv(here("models", "ABC", "posterior_Wuhan.csv")
 
 # ----- 2.2 Model Execution ----------------------------------------------------
 
