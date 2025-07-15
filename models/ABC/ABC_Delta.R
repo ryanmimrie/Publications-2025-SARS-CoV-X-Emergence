@@ -42,7 +42,8 @@ add <- function(list, name, object){
 
 # ----- 0.4. Load Odin Model ---------------------------------------------------
 
-model <- odin_dust(here("models", "Odin_Model.R"))
+model_path <- here("models", "Odin_Model.R")
+model <- odin_dust(model_path)
 
 # ------------------------------------------------------------------------------
 # ----- 1. Model Parameterisation ----------------------------------------------
