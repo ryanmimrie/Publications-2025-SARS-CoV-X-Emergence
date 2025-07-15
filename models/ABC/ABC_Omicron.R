@@ -12,7 +12,7 @@
 # of the parameters R0_delta and recovery_delta. The parameters R0_wuhan,
 # recovery_wuhan, R0_alpha, recovery_alpha, R0_delta and recovery_delta are drawn
 # from the approximate posteriors of the previous calibration processes in
-# ABC_Wuhan.R and ABC_Alpha.R.
+# ABC_Wuhan.R, ABC_Alpha.R and ABC_Delta.R.
 
 # Priors:
 #   - R0 parameters: lognormal with meanlog = 1, sdlog = 0.5
