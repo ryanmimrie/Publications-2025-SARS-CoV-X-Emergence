@@ -9,6 +9,7 @@
 # ----- 0.2. Initial Compartment Values ----------------------------------------
 
 initial(tracker_IX)    <- 0
+initial(tracker_I2)    <- 0
 initial(tracker_V)     <- 0
 initial(tracker_N)     <- 0
 
@@ -2126,31 +2127,34 @@ dim(c_ROXV1_out)   <- N_age
 dim(c_ROXV2_in)    <- N_age
 dim(c_ROXV2_out)   <- N_age
 
+dim(I2_tot) <- N_age
+dim(IX_tot) <- N_age
+
 # ------------------------------------------------------------------------------
 # ----- 1. Transitions ---------------------------------------------------------
 # ------------------------------------------------------------------------------
 # ----- 1.1. Infection Contacts ------------------------------------------------
 # ----- 1.1.1 Lockdowns -----
 
-I2_tot <-
-  sum(IWS) + sum(IWV1) + sum(IWV2) +
-  sum(IAS) + sum(IAV1) + sum(IAV2) +
-  sum(IDS) + sum(IDV1) + sum(IDV2) +
-  sum(IOS) + sum(IOV1) + sum(IOV2) +
-  sum(IORXS) +  sum(IORXV1) +  sum(IORXV2) +
-  sum(IARWS) +  sum(IARWV1) +  sum(IARWV2) +
-  sum(IDRWS) +  sum(IDRWV1) +  sum(IDRWV2) +
-  sum(IDRAS) +  sum(IDRAV1) +  sum(IDRAV2) +
-  sum(IORWS) +  sum(IORWV1) +  sum(IORWV2) +
-  sum(IORAS) +  sum(IORAV1) +  sum(IORAV2) +
-  sum(IORDS) +  sum(IORDV1) +  sum(IORDV2)
+I2_tot[] <-
+  IWS[i] + IWV1[i] + IWV2[i] +
+  IAS[i] + IAV1[i] + IAV2[i] +
+  IDS[i] + IDV1[i] + IDV2[i] +
+  IOS[i] + IOV1[i] + IOV2[i] +
+  IORXS[i] +  IORXV1[i] +  IORXV2[i] +
+  IARWS[i] +  IARWV1[i] +  IARWV2[i] +
+  IDRWS[i] +  IDRWV1[i] +  IDRWV2[i] +
+  IDRAS[i] +  IDRAV1[i] +  IDRAV2[i] +
+  IORWS[i] +  IORWV1[i] +  IORWV2[i] +
+  IORAS[i] +  IORAV1[i] +  IORAV2[i] +
+  IORDS[i] +  IORDV1[i] +  IORDV2[i]
 
-IX_tot <-
-  sum(IXS) + sum(IXV1) + sum(IXV2) +
-  sum(IXROS) + sum(IXROV1) + sum(IXROV2)
+IX_tot[] <-
+  IXS[i] + IXV1[i] + IXV2[i] +
+  IXROS[i] + IXROV1[i] + IXROV2[i]
 
-contacts_2[,] <- contact_matrices[i,j,step] * I2_tot
-contacts_X[,] <- contact_matrices[i,j,step] * IX_tot
+contacts_2[,] <- contact_matrices[i,j,step] * I2_tot[i]
+contacts_X[,] <- contact_matrices[i,j,step] * IX_tot[i]
 
 # ----- 1.2. Mean Rates --------------------------------------------------------
 # ----- 1.2.1. Naive to Exposed -----
@@ -6997,7 +7001,8 @@ update(ROXV2[16]) <- ROXV2[16] + c_ROXV2_in[16] - c_ROXV2_out[16] + c_aging_ROXV
 
 # ----- 2.135. Trackers --------------------------------------------------------
 
-update(tracker_IX) <- IX_tot
+update(tracker_IX) <- sum(IX_tot)
+update(tracker_I2) <- sum(I2_tot)
 
 update(tracker_N) <- sum(N)
 
