@@ -5,7 +5,7 @@ SESSION="parallel_32"
 for i in {1..32}; do
   sed -e "s/file_prefix <- 1/file_prefix <- $i/" \
       -e "s/parallelisation <- 1/parallelisation <- 32/" \
-      Dust_Script_Figure2.R > Dust_Script_Figure3_${i}.R
+      Dust_Script_Figure3.R > Dust_Script_Figure3_${i}.R
 done
 
 # --- Start a new detached session ---
