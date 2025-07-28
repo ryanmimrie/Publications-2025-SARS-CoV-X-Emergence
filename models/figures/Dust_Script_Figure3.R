@@ -1,6 +1,6 @@
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~ SARS-X Emergence Odin.Dust Model ~~~~~~~~~~~~~~~~~~~~~~~
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ==============================================================================
+# ===== SARS-X Emergence: Figure 3 Dust Run ====================================
+# ==============================================================================
 
 # ------------------------------------------------------------------------------
 # ----- 0. Initialisation ------------------------------------------------------
@@ -15,7 +15,13 @@
 
 # ----- 0.2. Dependencies ------------------------------------------------------
 
-library(odin.dust); library(tidyverse); library(socialmixr);library(abind)
+file_prefix <- 1
+
+parallelisation <- 1
+
+Sys.sleep((file_prefix - 1) * 2.5) # Prevents CPU spike from simultaneous compilation
+
+library(odin.dust); library(tidyverse); library(socialmixr); library(abind); library(here)
 
 # ----- 0.3 Convenience Functions ----------------------------------------------
 
@@ -26,9 +32,8 @@ add <- function(list, name, object){
 
 # ----- 0.4. Load Odin Model ---------------------------------------------------
 
-setwd("~/") # Set to your directory containing the models and data subdirectories
-
-model <- odin_dust("models/Odin_Model.R")
+model_path <- here("models", "Odin_Model.R")
+model <- odin_dust(model_path)
 
 # ------------------------------------------------------------------------------
 # ----- 1. Model Parameterisation ----------------------------------------------
@@ -38,9 +43,9 @@ model <- odin_dust("models/Odin_Model.R")
 
 parameters <- list()
 
-parameters <- add(parameters, "model_iterations", 1000)
+parameters <- add(parameters, "model_iterations", 3333)
 
-parameters <- add(parameters, "model_duration", 3650)
+parameters <- add(parameters, "model_duration", 365 * 6)
 
 parameters <- add(parameters, "model_times", seq(1, parameters$model_duration, by = 1))
 
@@ -49,16 +54,16 @@ parameters <- add(parameters, "model_times", seq(1, parameters$model_duration, b
 scotland <- list()
 
 with(scotland, {
-  groups <- read_csv("data/pop_structure.csv")$age_group
-  values <- read_csv("data/pop_structure.csv")[,2:6]
+  groups <- read_csv(here("data", "pop_structure.csv"))$age_group
+  values <- read_csv(here("data", "pop_structure.csv"))[,2:6]
   for (i in c(1:ncol(values))){
     new <- values[[i]]
     names(new) <- groups
     scotland <<- add(scotland, colnames(values)[i], new)
   }
   
-  ages <- read_csv("data/pop_individual_ages.csv")$age
-  n <- read_csv("data/pop_individual_ages.csv")$n_by_indiv_years
+  ages <- read_csv(here("data", "pop_individual_ages.csv"))$age
+  n <- read_csv(here("data", "pop_individual_ages.csv"))$n_by_indiv_years
   names(n) <- ages
   
   scotland <<- add(scotland, "n_by_year", n)
@@ -87,38 +92,37 @@ scotland <<- add(scotland, "n_by_year_cutoff", c(scotland$n_by_year[1:85], "85+"
 
 # ----- 1.3. Scotland Vacination Rates -----------------------------------------
 
-scotland <- add(scotland, "vaccination_dose1", as.matrix(read_csv("data/vaccination_dose1.csv")[,2:17])[1:parameters$model_duration, ])
+scotland <- add(scotland, "vaccination_dose1", as.matrix(read_csv(here("data", "vaccination_dose1.csv"))[,2:17])[1:parameters$model_duration, ])
 scotland <- add(scotland, "vaccination_dose2",
-                as.matrix(read_csv("data/vaccination_dose2.csv")[,2:17])[1:parameters$model_duration, ])
+                as.matrix(read_csv(here("data", "vaccination_dose2.csv"))[,2:17])[1:parameters$model_duration,] +
+                  as.matrix(read_csv(here("data", "vaccination_dose3.csv"))[,2:17])[1:parameters$model_duration,])
 
 # ----- 1.4. Scotland Social Structure -----------------------------------------
 
-scotland <- add(scotland, "contact_matrices", readRDS("data/contact_matrices.rds")[,,1:parameters$model_duration])
+scotland <- add(scotland, "contact_matrices", readRDS(here("data", "contact_matrices.rds")))
 
 # ----- 1.5 SARS-CoV-2 Variant Prevalences -------------------------------------
 
 viruses <- list()
 
-viruses <- add(viruses, "prevalence_wuhan", read_csv("data/SARS2_variant_prevalences.csv")$wuhan[1:parameters$model_duration])
-viruses <- add(viruses, "prevalence_alpha", read_csv("data/SARS2_variant_prevalences.csv")$alpha[1:parameters$model_duration])
-viruses <- add(viruses, "prevalence_delta", read_csv("data/SARS2_variant_prevalences.csv")$delta[1:parameters$model_duration])
-viruses <- add(viruses, "prevalence_omicron", read_csv("data/SARS2_variant_prevalences.csv")$omicron[1:parameters$model_duration])
+viruses <- add(viruses, "prevalence_wuhan", read_csv(here("data", "SARS2_variant_prevalences.csv"))$wuhan[1:parameters$model_duration])
+viruses <- add(viruses, "prevalence_alpha", read_csv(here("data", "SARS2_variant_prevalences.csv"))$alpha[1:parameters$model_duration])
+viruses <- add(viruses, "prevalence_delta", read_csv(here("data", "SARS2_variant_prevalences.csv"))$delta[1:parameters$model_duration])
+viruses <- add(viruses, "prevalence_omicron", read_csv(here("data", "SARS2_variant_prevalences.csv"))$omicron[1:parameters$model_duration])
 
 # ----- 1.6 SARS-CoV-2 Variant Phenotypes --------------------------------------
 
 with(viruses, {
-  phenotypes <- read_csv("data/SARS2_infection_phenotypes_by_age.csv")
+  phenotypes <- read_csv(here("data", "SARS2_infection_phenotypes_by_age.csv"))
   
   for (v in unique(phenotypes$virus)){
     current <- filter(phenotypes, virus == v)
     viruses <<- add(viruses, sprintf("u_death_%s", v), current$u_death)
-    viruses <<- add(viruses, sprintf("u_transmission_%s", v), current$u_transmission)
     viruses <<- add(viruses, sprintf("u_incubation_%s", v), current$u_incubation)
-    viruses <<- add(viruses, sprintf("u_recovery_%s", v), current$u_recovery)
     viruses <<- add(viruses, sprintf("disability_weighting_%s", v), current$disability_weighting)
     
   }
-
+  
 })
 
 # ----- 1.7 SARS-CoV-2 Immunity Phenotypes -------------------------------------
@@ -127,17 +131,17 @@ immunity <- list()
 
 with(immunity, {
   
-  reinfection <- read_csv("data/SARS2_immunity_reinfection_by_age.csv")
+  reinfection <- read_csv(here("data", "SARS2_immunity_reinfection_by_age.csv"))
   for(v in reinfection$virus){
     immunity <<- add(immunity, sprintf("immunity_reinfection_%s", v), filter(reinfection, virus == v)[,3:21] %>% as.matrix())
   }
   
-  virulence <- read_csv("data/SARS2_immunity_virulence_by_age.csv")
+  virulence <- read_csv(here("data", "SARS2_immunity_virulence_by_age.csv"))
   for(v in virulence$virus){
     immunity <<- add(immunity, sprintf("immunity_virulence_%s", v), filter(virulence, virus == v)[,3:21] %>% as.matrix())
   }
   
-  waning <- read_csv("data/SARS2_waning_rates.csv")
+  waning <- read_csv(here("data", "vaccination_waning_rates.csv"))
   
   for (i in c(1:nrow(waning))){
     immunity <<- add(immunity, sprintf("u_waning_%s", waning$immunity[[i]]), rep(waning$u_waning[[i]], 16))
@@ -182,10 +186,10 @@ virus_death_rate <- function(x, z) {
 
 # ----- 1.10 Transmission Rate Function ----------------------------------------
 
-transmission_rate <- function(R0, incubation_rate, recovery_rate, mortality_natural, mortality_infection) {
+transmission_rate <- function(R0, incubation_rate, recovery_rate, mortality_natural, mortality_infection, contact_rate) {
   rate <-
-    (R0 * (incubation_rate + mortality_natural) *
-       (recovery_rate + mortality_natural + mortality_infection)) / incubation_rate
+    ((R0 * (incubation_rate + mortality_natural) *
+        (recovery_rate + mortality_natural + mortality_infection)) / incubation_rate) / contact_rate
   return(rate)
 }
 
@@ -222,31 +226,37 @@ find_preventative_vaccine_amplitude <- function(target_coverage, pop_size = 5698
   return(find_amp(target_coverage))
 }
 
+# ----- 1.12 SARS-CoV-2 ABC Posteriors -----------------------------------------
+
+posterior <- read_csv(here("models", "ABC", "posterior_Omicron.csv"))
+
+
 # ------------------------------------------------------------------------------
 # ----- 2. Model Run -----------------------------------------------------------
 # ------------------------------------------------------------------------------
 
 # ----- 2.1 Scenarios ----------------------------------------------------------
 
-scenarios <- expand.grid(u_incubation = 1/2,
-                         u_recovery = 1/7,
-                         u_mortality = 0.01,
-                         R0 = c(2,3,4),
+scenarios <- expand.grid(R0 = c(2,3,4),
                          natural_cross_immunity = c(1/3, 2/3, 3/3),
                          vaccine_timing = seq(-360, 360, 30),
                          vaccine_coverage = seq(0, 100, length.out = 25))
 
 scenarios$vaccine_cross_immunity <- scenarios$natural_cross_immunity
 
+scenarios$group <- cut(1:nrow(scenarios), breaks = parallelisation, labels = FALSE)
+
+scenarios <- subset(scenarios, group == file_prefix)
+
 # ----- 2.2 Model Execution ----------------------------------------------------
 
 for (s in (1:nrow(scenarios))){
   
-  # ----- Preventative Vaccination Rates -----
-  
   virus <- scenarios[s,]
-
-  vaccination <- find_preventative_vaccine_amplitude(virus$vaccine_coverage) * exp(-((c(1:60) - 30)^2) / (2 * 10^2))
+  
+  target <- ifelse(scenarios$vaccine_coverage[s] == 1, 99.5, scenarios$vaccine_coverage[s]*100)
+  
+  vaccination <- find_preventative_vaccine_amplitude(target) * exp(-((c(1:60) - 30)^2) / (2 * 10^2))
   
   vaccination <- as.data.frame(matrix(rep(vaccination, 16), ncol = 16))
   
@@ -293,23 +303,37 @@ for (s in (1:nrow(scenarios))){
   immunity_reinfection <- matrix(c(rep(immunity_vaccination, 2), rep(immunity_reinfection, 17)), 
                                  ncol = 19, byrow = FALSE)
   
-  # ----- Infection-related Mortality by Age -----
+  # Posterior sampling
   
-  u_death <- c()
-  for (g in names(scotland$groups)){
-    ages <- scotland$groups[[g]]
-    current_death <- virus_death_rate(0:85, virus$u_mortality*100)[ages]
-    weighted_average <- sum(current_death * scotland$n_by_year_cutoff[ages]) / sum(scotland$n_by_year_cutoff[ages])
-    u_death <- c(u_death, weighted_average)
-  }
+  p <- sample(1:nrow(posterior), size = 1, prob = posterior$weight)
+  
+  R0_wuhan <- posterior$R0_wuhan[p]
+  recovery_wuhan <- posterior$recovery_wuhan[p]
+  waning_wuhan <- posterior$waning_wuhan[p]
+  
+  R0_alpha <- posterior$R0_alpha[p]
+  recovery_alpha <- posterior$recovery_alpha[p]
+  waning_alpha <- posterior$waning_alpha[p]
+  
+  R0_delta <- posterior$R0_delta[p]
+  recovery_delta <- posterior$recovery_delta[p]
+  waning_delta <- posterior$waning_delta[p]
+  
+  R0_omicron <- posterior$R0_omicron[p]
+  recovery_omicron <- posterior$recovery_omicron[p]
+  waning_omicron <- posterior$waning_omicron[p]
+  
+  R0_X <- scenarios$R0[s]
+  recovery_X <- recovery_wuhan
+  waning_X <- waning_wuhan
   
   death_natural <- 10.84157 / (1000 * 365)
   
-  # ----- Transmission Rate Calculation -----
-  
-  u_transmission <- transmission_rate(virus$R0, virus$u_incubation, virus$u_recovery, death_natural, u_death)
-  
-  # ----- Odin Model Call -----
+  u_transmission_wuhan <- transmission_rate(R0_wuhan, viruses$u_incubation_wuhan, recovery_wuhan, death_natural, viruses$u_death_wuhan, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
+  u_transmission_alpha <- transmission_rate(R0_alpha, viruses$u_incubation_alpha, recovery_alpha, death_natural, viruses$u_death_alpha, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
+  u_transmission_delta <- transmission_rate(R0_delta, viruses$u_incubation_delta, recovery_delta, death_natural, viruses$u_death_delta, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
+  u_transmission_omicron <- transmission_rate(R0_omicron, viruses$u_incubation_omicron, recovery_omicron, death_natural, viruses$u_death_omicron, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
+  u_transmission_X <- transmission_rate(R0_X, viruses$u_incubation_wuhan, recovery_X, death_natural, viruses$u_death_wuhan, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
   
   emerged <- 0
   
@@ -323,7 +347,7 @@ for (s in (1:nrow(scenarios))){
     model_run <- model$new(pars = list(blank = rep(0, 16),
                                        duration = parameters$model_duration,
                                        N_age = 16,
-                                       contact_matrices = scotland$contact_matrices,
+                                       contact_matrices = scotland$contact_matrices[,,1:parameters$model_duration],
                                        S_ini = scotland$n,
                                        u_birth = scotland$u_birth,
                                        u_death = scotland$u_death,
@@ -331,7 +355,7 @@ for (s in (1:nrow(scenarios))){
                                        n_migration = scotland$n_migration,
                                        
                                        u_V1 = scotland$vaccination_dose1,
-                                       u_V2 = vaccination,
+                                       u_V2 = vaccination[1:parameters$model_duration,],
                                        
                                        u_waning_V1 = immunity$u_waning_V1,
                                        u_waning_V2 = immunity$u_waning_V2,
@@ -341,11 +365,11 @@ for (s in (1:nrow(scenarios))){
                                        prevalence_D = viruses$prevalence_delta,
                                        prevalence_O = viruses$prevalence_omicron,
                                        
-                                       u_trans_W = viruses$u_transmission_wuhan,
-                                       u_trans_A = viruses$u_transmission_alpha,
-                                       u_trans_D = viruses$u_transmission_delta,
-                                       u_trans_O = viruses$u_transmission_omicron,
-                                       u_trans_X = u_transmission,
+                                       u_trans_W = u_transmission_wuhan,
+                                       u_trans_A = u_transmission_alpha,
+                                       u_trans_D = u_transmission_delta,
+                                       u_trans_O = u_transmission_omicron,
+                                       u_trans_X = u_transmission_X,
                                        
                                        immunity_inf_W = immunity$immunity_reinfection_wuhan,
                                        immunity_inf_A = immunity$immunity_reinfection_alpha,
@@ -357,7 +381,7 @@ for (s in (1:nrow(scenarios))){
                                        u_death_A = viruses$u_death_alpha,
                                        u_death_D = viruses$u_death_delta,
                                        u_death_O = viruses$u_death_omicron,
-                                       u_death_X = u_death,
+                                       u_death_X = viruses$u_death_wuhan,
                                        
                                        immunity_vir_W = immunity$immunity_virulence_wuhan,
                                        immunity_vir_A = immunity$immunity_virulence_alpha,
@@ -369,44 +393,46 @@ for (s in (1:nrow(scenarios))){
                                        u_incub_A = viruses$u_incubation_alpha,
                                        u_incub_D = viruses$u_incubation_delta,
                                        u_incub_O = viruses$u_incubation_omicron,
-                                       u_incub_X = rep(virus$u_incubation, 16),
+                                       u_incub_X = viruses$u_incubation_wuhan,
                                        
-                                       u_recov_W = viruses$u_recovery_wuhan,
-                                       u_recov_A = viruses$u_recovery_alpha,
-                                       u_recov_D = viruses$u_recovery_delta,
-                                       u_recov_O = viruses$u_recovery_omicron,
-                                       u_recov_X = rep(virus$u_recovery, 16),
+                                       u_recov_W = rep(recovery_wuhan, 16),
+                                       u_recov_A = rep(recovery_alpha, 16),
+                                       u_recov_D = rep(recovery_delta, 16),
+                                       u_recov_O = rep(recovery_omicron, 16),
+                                       u_recov_X = rep(recovery_X, 16),
                                        
-                                       u_waning_W = immunity$u_waning_wuhan,
-                                       u_waning_A = immunity$u_waning_alpha,
-                                       u_waning_D = immunity$u_waning_delta,
-                                       u_waning_O = rep(0.013, 16),
-                                       u_waning_X = immunity$u_waning_wuhan,
+                                       u_waning_W = rep(waning_wuhan, 16),
+                                       u_waning_A = rep(waning_alpha, 16),
+                                       u_waning_D = rep(waning_delta, 16),
+                                       u_waning_O = rep(waning_omicron, 16),
+                                       u_waning_X = rep(waning_X, 16),
                                        time_intro_W = 1,
-                                       amount_intro_W = c(0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0),
+                                       amount_intro_W = rep(5,16),
                                        time_intro_X = 4*365,
                                        amount_intro_X = c(0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0)),
-                             time = 1L,
-                             n_particles = 1,
-                             n_threads = 1L)
-      
-      output <- array(NA, dim = c(model_run$info()$len, 1, parameters$model_duration))
-      
-      for (i in c(1:(parameters$model_duration))){
-        output[ , , i] <- model_run$run(i)
-      }
-      
-      if (output[1,,parameters$model_duration] > 0){
-        emerged <- emerged + 1
-      }
-      
-      setTxtProgressBar(pb, trial)
-      
+                           time = 1L,
+                           n_particles = 1,
+                           n_threads = 1L)
+    
+    output <- array(NA, dim = c(model_run$info()$len, 1, parameters$model_duration))
+    
+    for (i in c(1:(parameters$model_duration))){
+      output[ , , i] <- model_run$run(i)
     }
+    
+    if (output[1,,parameters$model_duration] > 0){
+      emerged <- emerged + 1
+    }
+    
+    setTxtProgressBar(pb, trial)
+    
+  }
   
   virus$emergences <- emerged
   virus$trials <- parameters$model_iterations
-
+  
+  
+  
   cat("\n")
   print(virus)
   
@@ -418,3 +444,8 @@ for (s in (1:nrow(scenarios))){
   
 }
 
+if(!exists(here("models", "figures", "figure_3_output"))){
+  dir.create(here("models", "figures", "figure_3_output"))
+}
+
+write_csv(outdata, file = here("models", "figures", "figure_3_output", sprintf("%s.csv", file_prefix)))
