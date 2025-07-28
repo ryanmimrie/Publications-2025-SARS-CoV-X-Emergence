@@ -240,7 +240,7 @@ posterior <- read_csv(here("models", "ABC", "posterior_Omicron.csv"))
 scenarios <- expand.grid(R0 = c(2,3,4),
                          natural_cross_immunity = c(1/3, 2/3, 3/3),
                          vaccine_timing = seq(-360, 360, 30),
-                         vaccine_coverage = seq(0, 100, length.out = 25))
+                         vaccine_coverage = seq(0, 1, length.out = 25))
 
 scenarios$vaccine_cross_immunity <- scenarios$natural_cross_immunity
 
