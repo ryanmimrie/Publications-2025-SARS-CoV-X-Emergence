@@ -43,7 +43,7 @@ model <- odin_dust(model_path)
 
 parameters <- list()
 
-parameters <- add(parameters, "model_iterations", 3333)
+parameters <- add(parameters, "model_iterations", 3334)
 
 parameters <- add(parameters, "model_duration", 365 * 6)
 
