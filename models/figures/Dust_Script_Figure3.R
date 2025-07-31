@@ -17,7 +17,7 @@
 
 file_prefix <- 1
 
-parallelisation <- 1
+parallelisation <- 32
 
 Sys.sleep((file_prefix - 1) * 2.5) # Prevents CPU spike from simultaneous compilation
 
@@ -43,7 +43,7 @@ model <- odin_dust(model_path)
 
 parameters <- list()
 
-parameters <- add(parameters, "model_iterations", 3334)
+parameters <- add(parameters, "model_iterations", 50)
 
 parameters <- add(parameters, "model_duration", 365 * 6)
 
@@ -237,8 +237,8 @@ posterior <- read_csv(here("models", "ABC", "posterior_Omicron.csv"))
 
 # ----- 2.1 Scenarios ----------------------------------------------------------
 
-scenarios <- expand.grid(R0 = c(2,3,4),
-                         natural_cross_immunity = c(1/3, 2/3, 3/3),
+scenarios <- expand.grid(R0 = c(2:6),
+                         natural_cross_immunity = seq(0, 1, length.out = 5),
                          vaccine_timing = seq(-360, 360, 30),
                          vaccine_coverage = seq(0, 1, length.out = 25))
 
@@ -303,46 +303,48 @@ for (s in (1:nrow(scenarios))){
   immunity_reinfection <- matrix(c(rep(immunity_vaccination, 2), rep(immunity_reinfection, 17)), 
                                  ncol = 19, byrow = FALSE)
   
-  # Posterior sampling
-  
-  p <- sample(1:nrow(posterior), size = 1, prob = posterior$weight)
-  
-  R0_wuhan <- posterior$R0_wuhan[p]
-  recovery_wuhan <- posterior$recovery_wuhan[p]
-  waning_wuhan <- posterior$waning_wuhan[p]
-  
-  R0_alpha <- posterior$R0_alpha[p]
-  recovery_alpha <- posterior$recovery_alpha[p]
-  waning_alpha <- posterior$waning_alpha[p]
-  
-  R0_delta <- posterior$R0_delta[p]
-  recovery_delta <- posterior$recovery_delta[p]
-  waning_delta <- posterior$waning_delta[p]
-  
-  R0_omicron <- posterior$R0_omicron[p]
-  recovery_omicron <- posterior$recovery_omicron[p]
-  waning_omicron <- posterior$waning_omicron[p]
-  
-  R0_X <- scenarios$R0[s]
-  recovery_X <- recovery_wuhan
-  waning_X <- waning_wuhan
-  
-  death_natural <- 10.84157 / (1000 * 365)
-  
-  u_transmission_wuhan <- transmission_rate(R0_wuhan, viruses$u_incubation_wuhan, recovery_wuhan, death_natural, viruses$u_death_wuhan, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
-  u_transmission_alpha <- transmission_rate(R0_alpha, viruses$u_incubation_alpha, recovery_alpha, death_natural, viruses$u_death_alpha, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
-  u_transmission_delta <- transmission_rate(R0_delta, viruses$u_incubation_delta, recovery_delta, death_natural, viruses$u_death_delta, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
-  u_transmission_omicron <- transmission_rate(R0_omicron, viruses$u_incubation_omicron, recovery_omicron, death_natural, viruses$u_death_omicron, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
-  u_transmission_X <- transmission_rate(R0_X, viruses$u_incubation_wuhan, recovery_X, death_natural, viruses$u_death_wuhan, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
-  
+
   emerged <- 0
   
   cat("\n")
   print(sprintf("Scenario: %s", s))
   
-  pb <- txtProgressBar(min = 0, max = parameters$model_iterations, style = 3)
+  pb <- txtProgressBar(min = 0, max = parameters$model_iterations, style = 3, width = 5)
   
   for (trial in c(1:parameters$model_iterations)){
+    
+    # Posterior sampling
+    
+    p <- sample(1:nrow(posterior), size = 1, prob = posterior$weight)
+    
+    R0_wuhan <- posterior$R0_wuhan[p]
+    recovery_wuhan <- posterior$recovery_wuhan[p]
+    waning_wuhan <- posterior$waning_wuhan[p]
+    
+    R0_alpha <- posterior$R0_alpha[p]
+    recovery_alpha <- posterior$recovery_alpha[p]
+    waning_alpha <- posterior$waning_alpha[p]
+    
+    R0_delta <- posterior$R0_delta[p]
+    recovery_delta <- posterior$recovery_delta[p]
+    waning_delta <- posterior$waning_delta[p]
+    
+    R0_omicron <- posterior$R0_omicron[p]
+    recovery_omicron <- posterior$recovery_omicron[p]
+    waning_omicron <- posterior$waning_omicron[p]
+    
+    R0_X <- scenarios$R0[s]
+    recovery_X <- recovery_wuhan
+    waning_X <- waning_wuhan
+    
+    death_natural <- 10.84157 / (1000 * 365)
+    
+    u_transmission_wuhan <- transmission_rate(R0_wuhan, viruses$u_incubation_wuhan, recovery_wuhan, death_natural, viruses$u_death_wuhan, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
+    u_transmission_alpha <- transmission_rate(R0_alpha, viruses$u_incubation_alpha, recovery_alpha, death_natural, viruses$u_death_alpha, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
+    u_transmission_delta <- transmission_rate(R0_delta, viruses$u_incubation_delta, recovery_delta, death_natural, viruses$u_death_delta, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
+    u_transmission_omicron <- transmission_rate(R0_omicron, viruses$u_incubation_omicron, recovery_omicron, death_natural, viruses$u_death_omicron, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
+    u_transmission_X <- transmission_rate(R0_X, viruses$u_incubation_wuhan, recovery_X, death_natural, viruses$u_death_wuhan, mean(scotland$contact_matrices[,,1:1200]) * sum(scotland$n))
+    
     
     model_run <- model$new(pars = list(blank = rep(0, 16),
                                        duration = parameters$model_duration,
@@ -407,7 +409,7 @@ for (s in (1:nrow(scenarios))){
                                        u_waning_O = rep(waning_omicron, 16),
                                        u_waning_X = rep(waning_X, 16),
                                        time_intro_W = 1,
-                                       amount_intro_W = rep(5,16),
+                                       amount_intro_W = rep(0,16),
                                        time_intro_X = 4*365,
                                        amount_intro_X = c(0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0)),
                            time = 1L,
