@@ -446,8 +446,8 @@ for (s in (1:nrow(scenarios))){
   
 }
 
-if(!exists(here("models", "figures", "figure_3_output"))){
-  dir.create(here("models", "figures", "figure_3_output"))
+if(!exists(here("models", "figures", "figure_4_output"))){
+  dir.create(here("models", "figures", "figure_4_output"))
 }
 
-write_csv(outdata, file = here("models", "figures", "figure_3_output", sprintf("%s.csv", file_prefix)))
+write_csv(outdata, file = here("models", "figures", "figure_4_output", sprintf("%s.csv", file_prefix)))
