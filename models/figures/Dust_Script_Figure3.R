@@ -409,7 +409,7 @@ for (s in (1:nrow(scenarios))){
                                        u_waning_O = rep(waning_omicron, 16),
                                        u_waning_X = rep(waning_X, 16),
                                        time_intro_W = 1,
-                                       amount_intro_W = rep(0,16),
+                                       amount_intro_W = rep(5,16),
                                        time_intro_X = 4*365,
                                        amount_intro_X = c(0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0)),
                            time = 1L,
