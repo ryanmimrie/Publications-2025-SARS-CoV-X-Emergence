@@ -307,7 +307,7 @@ for (s in (1:nrow(scenarios))){
   emerged <- 0
   
   cat("\n")
-  print(sprintf("Scenario: %s", s))
+  print(sprintf("Scenario: %s of %s", s, nrow(scenarios)))
   
   pb <- txtProgressBar(min = 0, max = parameters$model_iterations, style = 3, width = 5)
   
