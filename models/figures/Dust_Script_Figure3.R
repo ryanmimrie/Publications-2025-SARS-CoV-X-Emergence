@@ -43,7 +43,7 @@ model <- odin_dust(model_path)
 
 parameters <- list()
 
-parameters <- add(parameters, "model_iterations", 50)
+parameters <- add(parameters, "model_iterations", 1000)
 
 parameters <- add(parameters, "model_duration", 365 * 6)
 
@@ -436,7 +436,6 @@ for (s in (1:nrow(scenarios))){
   
   
   cat("\n")
-  print(virus)
   
   if(!exists("outdata")){
     outdata <- virus
