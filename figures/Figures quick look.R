@@ -25,10 +25,12 @@ ggplot(filter(data2, vaccine_coverage == 1)) +
 data3a <- do.call(rbind, lapply(list.files(path = here("models", "figures", "figure_3_output_1"), pattern = "\\.csv$", full.names = TRUE), read.csv))
 data3b <- do.call(rbind, lapply(list.files(path = here("models", "figures", "figure_3_output_2"), pattern = "\\.csv$", full.names = TRUE), read.csv))
 data3c <- do.call(rbind, lapply(list.files(path = here("models", "figures", "figure_3_output_3"), pattern = "\\.csv$", full.names = TRUE), read.csv))
+data3d <- do.call(rbind, lapply(list.files(path = here("models", "figures", "figure_3_output_4"), pattern = "\\.csv$", full.names = TRUE), read.csv))
 
 data3 <- data3a
-data3$emergences <- data3$emergences + data3b$emergences + data3c$emergences
-data3$trials <- data3$trials + data3b$trials + data3c$trials
+data3$emergences <- data3$emergences + data3b$emergences + data3c$emergences + data3d$emergences
+data3$trials <- data3$trials + data3b$trials + data3c$trials + data3d$trials
+
 
 ggplot(data3) +
   geom_tile(aes(x = vaccine_timing, y = vaccine_coverage, fill = emergences/trials)) +
@@ -42,10 +44,6 @@ ggplot(data3) +
 
 
 data4 <- do.call(rbind, lapply(list.files(path = here("models", "figures", "figure_4_output"), pattern = "\\.csv$", full.names = TRUE), read.csv))
-
-
-
-
 
 ggplot(data3) +
   geom_tile(aes(x = vaccine_timing, y = vaccine_coverage, fill = emergences/trials)) +
