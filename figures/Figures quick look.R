@@ -43,19 +43,26 @@ ggplot(data3) +
 
 
 
-data4 <- do.call(rbind, lapply(list.files(path = here("models", "figures", "figure_4_output"), pattern = "\\.csv$", full.names = TRUE), read.csv))
 
-ggplot(data3) +
-  geom_tile(aes(x = vaccine_timing, y = vaccine_coverage, fill = emergences/trials)) +
-  facet_grid(cols = vars(natural_cross_immunity), rows = vars(R0)) +
-  scale_fill_viridis_c() +
-  scale_x_continuous(expand = c(0,0)) +
-  scale_y_continuous(expand = c(0,0)) +
-  theme_bw() +
-  theme(aspect.ratio = 1)
+data4a <- read_csv(here("models", "figures", "figure_4_output_1.csv"))
+data4b <- read_csv(here("models", "figures", "figure_4_output_2.csv"))
+
+data4 <- data4a
+data4$emergences <- data4$emergences + data4b$emergences
+data4$trials <- data4$trials + data4b$trials
+
+data4$prob <- data4$emergences / data4$trials
+
+data4_bg <- filter(data4, vaccine_coverage == 0) %>%
+  group_by(R0, natural_cross_immunity) %>%
+  summarise(background = mean(prob))
+
+data4 <- left_join(data4, data4_bg)
+
+data4$change <- pmax(0, data4$prob - data4$background)
 
 ggplot(data4) +
-  geom_tile(aes(x = vaccine_timing, y = vaccine_coverage, fill = emergences/trials)) +
+  geom_tile(aes(x = vaccine_timing, y = vaccine_coverage, fill = change)) +
   facet_grid(cols = vars(natural_cross_immunity), rows = vars(R0)) +
   scale_fill_viridis_c() +
   scale_x_continuous(expand = c(0,0)) +
