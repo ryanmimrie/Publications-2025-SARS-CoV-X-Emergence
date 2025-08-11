@@ -21,6 +21,7 @@ library(merTools)
 library(emmeans)
 library(gridExtra)
 library(here)
+library(viridisLite)
 
 # ----- 0.3. Load Data Custom Function -----------------------------------------
 
@@ -104,7 +105,7 @@ data$neutralisation <- ifelse(data$neutralisation < 0, 0, data$neutralisation)
 
 # ----- 1.2. Add Sample Metadata -----------------------------------------------
 
-metadata <- read_csv("2023_SARSCoV2_data.csv")[,1:3]
+metadata <- read_csv(here("data", "2023_SARSCoV2_data.csv"))[,1:3]
 
 data$virus <- ifelse(data$virus == "CoV-1", "SARS-CoV-1",
                      ifelse(data$virus == "pangolin", "GX/P1E (pangolin)",
@@ -143,7 +144,7 @@ p1 <- ggplot(filter(data, Doses == "Unvaccinated")) +
         legend.title = element_blank()) +
   scale_x_discrete(labels = c("SARS-CoV", "GX/P1E\n(pangolin)", "Rs4084\n(bat)", "RaTG13\n(bat)")) +
   scale_y_continuous(name = "Neutralisation (%)", limits = c(0, 100)) +
-  scale_fill_manual(values = c("#e74c3c", "#f1c40f", "#1abc9c", "#3498db"), labels = c("SARS-CoV", "GX/P1E (pangolin)", "Rs4084 (bat)", "RaTG13 (bat)")) +
+  scale_fill_manual(values = mako(5)[2:5], labels = c("SARS-CoV", "GX/P1E (pangolin)", "Rs4084 (bat)", "RaTG13 (bat)")) +
   ggtitle("A.") +
   coord_fixed(ratio = 0.0375)
 
@@ -159,7 +160,7 @@ p2 <- ggplot(filter(data, Doses == "Vaccinated: 1 dose")) +
         legend.title = element_blank()) +
   scale_x_discrete(labels = c("SARS-CoV", "GX/P1E\n(pangolin)", "Rs4084\n(bat)", "RaTG13\n(bat)")) +
   scale_y_continuous(name = "Neutralisation (%)", limits = c(0, 100)) +
-  scale_fill_manual(values = c("#e74c3c", "#f1c40f", "#1abc9c", "#3498db"), labels = c("SARS-CoV", "GX/P1E (pangolin)", "Rs4084 (bat)", "RaTG13 (bat)")) +
+  scale_fill_manual(values = mako(5)[2:5], labels = c("SARS-CoV", "GX/P1E (pangolin)", "Rs4084 (bat)", "RaTG13 (bat)")) +
   ggtitle("B.") +
   coord_fixed(ratio = 0.0375)
 
@@ -175,18 +176,9 @@ p3 <- ggplot(filter(data, Doses == "Vaccinated: 2 doses")) +
         legend.title = element_blank()) +
   scale_x_discrete(labels = c("SARS-CoV", "GX/P1E\n(pangolin)", "Rs4084\n(bat)", "RaTG13\n(bat)")) +
   scale_y_continuous(name = "Neutralisation (%)", limits = c(0, 100)) +
-  scale_fill_manual(values = c("#e74c3c", "#f1c40f", "#1abc9c", "#3498db"), labels = c("SARS-CoV", "GX/P1E (pangolin)", "Rs4084 (bat)", "RaTG13 (bat)")) +
+  scale_fill_manual(values = mako(5)[2:5], labels = c("SARS-CoV", "GX/P1E (pangolin)", "Rs4084 (bat)", "RaTG13 (bat)")) +
   ggtitle("C.") +
   coord_fixed(ratio = 0.0375)
-
-
-
-
-
-
-
-
-
 
 data$cat <- ifelse(data$history == "Naive" & data$Doses != "Unvaccinated", "Vaccinated",
                    ifelse(data$history != "Naive" & data$Doses == "Unvaccinated", "Infected",
