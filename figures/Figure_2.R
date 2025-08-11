@@ -84,12 +84,11 @@ ggsave(here("figures", "figure 2A raw.svg"), plot = p1, dpi = 300, width = 6, he
 # These colours are added manually to the svg of Figure 2A to properly align
 # between subplots. This plot is therefore quite bare.
 
-p2 <- ggplot(data2_bg) +
+ggplot(data2_bg) +
   geom_tile(aes(x = 1, y = 1, fill = background)) +
   facet_wrap(~strain) +
   scale_fill_viridis_c(limits = c(0, 0.07))
 
-ggsave(here("figures", "figure 2B raw.svg"), plot = p2, dpi = 300, width = 4, height = 4)
 
 
 
