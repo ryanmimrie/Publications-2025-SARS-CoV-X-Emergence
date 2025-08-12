@@ -1,5 +1,5 @@
 # ==============================================================================
-# ===== SARS-CoV-X Emergence Modeling: Figure 4 ================================
+# ===== SARS-CoV-X Emergence Modeling: Figure 5 ================================
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
@@ -8,7 +8,7 @@
 
 # ----- 0.1. Description -------------------------------------------------------
 
-# The following script wrangles and plots Figure 4 from Imrie & Bissett et al.,
+# The following script wrangles and plots Figure 5 from Imrie & Bissett et al.,
 # (2025) "Post-pandemic changes in population immunity have reduced the
 # likelihood of emergence of zoonotic coronaviruses".
 
@@ -19,26 +19,17 @@ library(here)
 library(scales)
 library(viridis)
 library(viridisLite)
-library(cairo) # Affinity Designer compatible .svg device
+library(Cairo) # Affinity Designer compatible .svg device
 
 # ----- 0.3. Load Data ---------------------------------------------------------
 
-# NTS: Collapse to single csv before publication
-
-dataa <- read_csv(here("models", "figures", "figure_4_output_1.csv"))
-datab <- read_csv(here("models", "figures", "figure_4_output_2.csv"))
-datac <- read_csv(here("models", "figures", "figure_4_output_3.csv"))
-datad <- read_csv(here("models", "figures", "figure_4_output_4.csv"))
+data <- read_csv(here("models", "figures", "figure_5_data.csv"))
 
 # ------------------------------------------------------------------------------
 # ----- 1. Data Wrangling ------------------------------------------------------
 # ------------------------------------------------------------------------------
 
 # ----- 1.1. Data Wrangling ----------------------------------------------------
-
-data <- dataa
-data$emergences <- data$emergences + datab$emergences + datac$emergences + datad$emergences + datae$emergences
-data$trials <- data$trials + datab$trials + datac$trials + datad$trials + datae$trials
 
 data$prob <- data$emergences / data$trials
 
@@ -48,13 +39,13 @@ data_bg <- filter(data, vaccine_coverage == 0) %>%
 
 data <- left_join(data, data_bg)
 
-data$change <- pmin(0, data$prob - data$background)
+data$change <- pmax(0, data$prob - data$background)
 
 # ------------------------------------------------------------------------------
 # ----- 2. Plots ---------------------------------------------------------------
 # ------------------------------------------------------------------------------
 
-# ----- 2.1. Figure 2A ---------------------------------------------------------
+# ----- 2.1. Figure 5A ---------------------------------------------------------
 
 palette <- magma(12)
 
@@ -71,19 +62,19 @@ p1 <- ggplot(data) +
         text = element_text(color = "#2e3440"),
         strip.background = element_rect(fill = "#e5e9f0"))
 
-ggsave(here("figures", "figure 3A raw.svg"), plot = p1, dpi = 300, width = 6, height = 6, device = cairo_pdf)
+ggsave(here("figures", "figure 5A raw.svg"), plot = p1, dpi = 300, width = 6, height = 6, device = cairo_pdf)
 
-# ----- 2.2. Figure 2B ---------------------------------------------------------
+# ----- 2.2. Figure 5B ---------------------------------------------------------
 
-# These colours are added manually to the svg of Figure 2A to properly align
-# between subplots. This plot is therefore quite bare.
+# These colours are added manually to the svg of Figure 5A to properly align
+# subplots. This plot is therefore quite bare.
 
 p2 <- ggplot(data_bg) +
   geom_tile(aes(x = 1, y = 1, fill = background)) +
   facet_grid(cols = vars(natural_cross_immunity), rows = vars(R0)) +
   scale_fill_viridis_c()
 
-ggsave(here("figures", "figure 3B raw.svg"), plot = p2, dpi = 300, width = 4, height = 4, device = cairo_pdf)
+ggsave(here("figures", "figure 5B raw.svg"), plot = p2, dpi = 300, width = 4, height = 4, device = cairo_pdf)
 
 
 
