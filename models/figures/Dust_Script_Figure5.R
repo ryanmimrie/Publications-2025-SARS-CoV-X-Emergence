@@ -1,5 +1,5 @@
 # ==============================================================================
-# ===== SARS-X Emergence: Figure 4 Dust Run ====================================
+# ===== SARS-X Emergence: Figure 5 Dust Run ====================================
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
@@ -8,7 +8,7 @@
 
 # ----- 0.1. Description -------------------------------------------------------
 
-# The following script reproduces the model run from Figure 4 of the Odin
+# The following script reproduces the model run from Figure 5 of the Odin
 # Epidemiological model from Imrie & Bissett et al., (2025) "Post-pandemic
 # changes in population immunity have reduced the likelihood of emergence of
 # zoonotic coronaviruses"
@@ -239,7 +239,7 @@ scenarios <- expand.grid(R0 = c(2:6),
                          vaccine_timing = seq(-360, 360, 30),
                          vaccine_coverage = seq(0, 1, length.out = 25))[job,]
 
-scenarios$vaccine_cross_immunity <- scenarios$natural_cross_immunity
+scenarios$vaccine_cross_immunity <- 0.05
 
 # ----- 2.2 Model Execution ----------------------------------------------------
 
@@ -438,8 +438,8 @@ for (s in (1:nrow(scenarios))){
   
 }
 
-if(!exists(here("models", "figures", sprintf("figure_4_output_%s", batch)))){
-  dir.create(here("models", "figures", sprintf("figure_4_output_%s", batch)))
+if(!exists(here("models", "figures", sprintf("figure_5_output_%s", batch)))){
+  dir.create(here("models", "figures", sprintf("figure_5_output_%s", batch)))
 }
 
-write_csv(outdata, file = here("models", "figures", sprintf("figure_4_output_%s", batch), sprintf("%s.csv", job)))
+write_csv(outdata, file = here("models", "figures", sprintf("figure_5_output_%s", batch), sprintf("%s.csv", job)))
