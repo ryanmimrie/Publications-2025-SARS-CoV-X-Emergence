@@ -1,0 +1,23 @@
+
+Operator analysis
+Operator                                          Tuning   Count      Time     Time/Op  Pr(accept) Smoothed_Pr(accept)
+scale(CP1.kappa)                                  0.488   1236331    34409    0.03     0.2339      0.24        
+scale(CP2.kappa)                                  0.31    1237777    34198    0.03     0.2343      0.26        
+scale(CP3.kappa)                                  0.667   1237109    42697    0.03     0.2338      0.2         
+deltaExchange(CP1.frequencies)                    0.068   1237971    34080    0.03     0.2338      0.25        
+deltaExchange(CP2.frequencies)                    0.068   1240311    33996    0.03     0.2337      0.24        
+deltaExchange(CP3.frequencies)                    0.032   1238173    43209    0.03     0.2337      0.24        
+scale(CP1.alpha)                                  0.332   1236044    34403    0.03     0.2337      0.18        
+scale(CP2.alpha)                                  0.149   1238233    33669    0.03     0.2339      0.18        
+scale(CP3.alpha)                                  0.539   1237791    43319    0.03     0.2342      0.26        
+scale(ucld.mean)                                  0.767   3710425    157474   0.04     0.2342      0.26        
+scale(ucld.stdev)                                 0.108   3713159    157310   0.04     0.2341      0.24        
+up:nodeHeights(treeModel) down:ucld.mean          0.124   3711565    157730   0.04     0.2341      0.19        
+swapOperator(branchRates.categories)                      12371900   456098   0.04     0.9872      1.0         
+uniformInteger(branchRates.categories)                    12377787   431685   0.03     0.9898      1.0         
+deltaExchange(allNus)                             0.051   3709185    137300   0.04     0.2338      0.27        
+subtreeLeap(treeModel)                            0.0     37127169   1332201  0.04     0.2339      0.17        
+subtreeJump(treeModel)                                    3709906    145177   0.04     0.0         0.0         
+scale(birthDeath.meanGrowthRate)                  0.147   3715919    58343    0.02     0.2341      0.25        
+randomWalkOperator(birthDeath.relativeDeathRate)  6.889   3713245    56080    0.02     0.2339      0.27        
+

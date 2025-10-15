@@ -1,0 +1,1401 @@
+ID,virus,vaccination,infection,neutralisation
+RG38803,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Delta,70.68777779761162
+RG38803,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Delta,98.4013361966118
+RG38803,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Delta,81.6528288608316
+RG38803,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Delta,75.83544768645257
+RG03517,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,23.14608632414678
+RG03517,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,92.67007216411254
+RG03517,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,47.28630518682612
+RG03517,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,79.45147137756412
+RG04135,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,27.559959010604956
+RG04135,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,98.15535555015
+RG04135,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,34.44904034198093
+RG04135,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,16.446524001773582
+RG04182,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0
+RG04182,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,95.46339090245682
+RG04182,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,39.51385403506343
+RG04182,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,67.0223565377704
+RG04651,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,33.43220071581186
+RG04651,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,96.32287359117814
+RG04651,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,57.66774545265745
+RG04651,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,90.65132669015892
+RG04668,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,42.215470792050944
+RG04668,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,88.25914213897673
+RG04668,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,59.401879510565756
+RG04668,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,37.55454948542625
+RG04671,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,38.52311964155315
+RG04671,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,98.41887618584286
+RG04671,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,74.24153268375417
+RG04671,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,82.26120743973303
+RG04937,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,20.129879886648098
+RG04937,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,88.75375010135409
+RG04937,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,41.1848185389661
+RG04937,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,45.302326666822246
+RG04973,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0.022538157099972977
+RG04973,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,94.76607475877726
+RG04973,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,47.915404717813814
+RG04973,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,86.71267881729715
+RG05453,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,12.95192761344957
+RG05453,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,96.39584853644693
+RG05453,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,54.56291860646233
+RG05453,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,98.49536766936595
+RG05545,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,57.73945289374912
+RG05545,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,97.44182275196627
+RG05545,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,71.98300479396342
+RG05545,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,68.91554456138714
+RG05565,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,39.5463519738918
+RG05565,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,94.54714992297089
+RG05565,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,45.26661013135806
+RG05565,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,93.38521854799188
+RG05580,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,11.342102178989037
+RG05580,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,98.87294251195978
+RG05580,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,73.35888960038767
+RG05580,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,95.77606123544375
+RG05630,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0
+RG05630,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,92.12276007459661
+RG05630,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,6.126581402191036
+RG05630,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,6.677790483302601
+RG06201,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,48.32090729605222
+RG06201,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,98.77969674856077
+RG06201,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,72.06607708416261
+RG06201,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,25.51282350470234
+RG09490,SARS-CoV-1,Unvaccinated,Naive,13.34872475413114
+RG09490,RaTG13 (bat),Unvaccinated,Naive,13.526187920221474
+RG09490,Rs4084 (bat),Unvaccinated,Naive,0
+RG09490,GX/P1E (pangolin),Unvaccinated,Naive,4.544158556225966
+RG09493,SARS-CoV-1,Unvaccinated,Naive,8.471341053282188
+RG09493,RaTG13 (bat),Unvaccinated,Naive,6.217865416125207
+RG09493,Rs4084 (bat),Unvaccinated,Naive,0
+RG09493,GX/P1E (pangolin),Unvaccinated,Naive,9.463593560965094
+RG09538,SARS-CoV-1,Unvaccinated,Naive,6.300787143921909
+RG09538,RaTG13 (bat),Unvaccinated,Naive,0
+RG09538,Rs4084 (bat),Unvaccinated,Naive,0
+RG09538,GX/P1E (pangolin),Unvaccinated,Naive,2.9975880589654054
+RG09540,SARS-CoV-1,Unvaccinated,Naive,0
+RG09540,RaTG13 (bat),Unvaccinated,Naive,0
+RG09540,Rs4084 (bat),Unvaccinated,Naive,0
+RG09540,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG09542,SARS-CoV-1,Unvaccinated,Naive,12.768819647694016
+RG09542,RaTG13 (bat),Unvaccinated,Naive,7.164246567602689
+RG09542,Rs4084 (bat),Unvaccinated,Naive,0
+RG09542,GX/P1E (pangolin),Unvaccinated,Naive,5.065846760832542
+RG09552,SARS-CoV-1,Unvaccinated,Naive,0
+RG09552,RaTG13 (bat),Unvaccinated,Naive,8.787917410145297
+RG09552,Rs4084 (bat),Unvaccinated,Naive,0
+RG09552,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG11486,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,11.002527278682805
+RG11486,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,97.02829806210978
+RG11486,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,49.66944151191568
+RG11486,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,35.05052390842688
+RG12229,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0
+RG12229,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,99.34680091766505
+RG12229,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,5.596153563394154
+RG12229,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,0
+RG13187,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,23.62419576342748
+RG13187,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,78.1926538555096
+RG13187,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,31.119226043162968
+RG13187,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,0
+RG13808,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,15.215359603809247
+RG13808,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,75.05067704532556
+RG13808,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,24.04510133088732
+RG13808,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,10.93381718046254
+RG13859,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,31.628246621530252
+RG13859,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,85.55906916403146
+RG13859,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,31.519876776102876
+RG13859,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,0.2654547151758351
+RG14097,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0
+RG14097,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,86.27665612584124
+RG14097,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,0
+RG14097,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,0
+RG14786,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0
+RG14786,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,96.94721478958891
+RG14786,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,34.04579359997231
+RG14786,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,32.91055051224009
+RG15145,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0
+RG15145,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,49.54593367388308
+RG15145,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,19.271040653502013
+RG15145,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,0
+RG15637,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0
+RG15637,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,23.761453012243578
+RG15637,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,13.633374292587533
+RG15637,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,0
+RG15672,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,20.05084608241752
+RG15672,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,92.39438903754156
+RG15672,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,7.113064848306536
+RG15672,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,68.9417983244265
+RG15896,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0
+RG15896,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,95.35392848455363
+RG15896,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,20.01955660165106
+RG15896,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,16.43543907960141
+RG15973,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,11.288611619471766
+RG15973,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,71.36138814562557
+RG15973,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,15.621917239230882
+RG15973,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,4.220438262817666
+RG16195,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,22.59375122081684
+RG16195,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,85.32798183734695
+RG16195,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,32.679427493466704
+RG16195,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,26.9311101257847
+RG16266,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,13.668039991705967
+RG16266,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,99.55404200113517
+RG16266,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,37.39204928955885
+RG16266,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,35.43324543184522
+RG16339,SARS-CoV-1,Unvaccinated,Naive,0
+RG16339,RaTG13 (bat),Unvaccinated,Naive,3.997400983106388
+RG16339,Rs4084 (bat),Unvaccinated,Naive,0
+RG16339,GX/P1E (pangolin),Unvaccinated,Naive,14.487828559539494
+RG16358,SARS-CoV-1,Unvaccinated,Naive,15.830136886691264
+RG16358,RaTG13 (bat),Unvaccinated,Naive,14.094016611107975
+RG16358,Rs4084 (bat),Unvaccinated,Naive,9.7134800342414
+RG16358,GX/P1E (pangolin),Unvaccinated,Naive,20.1293046982762
+RG16372,SARS-CoV-1,Unvaccinated,Naive,0
+RG16372,RaTG13 (bat),Unvaccinated,Naive,2.2769648002712017
+RG16372,Rs4084 (bat),Unvaccinated,Naive,0
+RG16372,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG16473,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,1.28828105983429
+RG16473,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,98.34590124057407
+RG16473,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,38.834564995413714
+RG16473,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,22.446967398660476
+RG16478,SARS-CoV-1,Unvaccinated,Naive,11.690814230398658
+RG16478,RaTG13 (bat),Unvaccinated,Naive,19.59432736312786
+RG16478,Rs4084 (bat),Unvaccinated,Naive,0
+RG16478,GX/P1E (pangolin),Unvaccinated,Naive,19.449645914726716
+RG17066,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,20.241669145863952
+RG17066,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,91.81869780264331
+RG17066,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,51.42174763330507
+RG17066,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,38.363748803995236
+RG19174,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0
+RG19174,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,94.96067461282738
+RG19174,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,77.14040947716377
+RG19174,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,99.14646099274229
+RG19280,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,38.21599968747089
+RG19280,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,93.00251358144814
+RG19280,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,8.480296291168372
+RG19280,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,21.903222795267325
+RG21905,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,2.623140977675206
+RG21905,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,90.80110273250628
+RG21905,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,50.88610442879148
+RG21905,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,25.98772490723671
+RG22135,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,0
+RG22135,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,82.25492580880564
+RG22135,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,19.043457191810447
+RG22135,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,0
+RG22150,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,18.395042807473047
+RG22150,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,89.89702424389849
+RG22150,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,18.624634395389478
+RG22150,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,8.738419173414854
+RG22533,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,41.59762477875042
+RG22533,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,95.21608692126814
+RG22533,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,38.5870787975286
+RG22533,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,54.13642622109169
+RG22927,SARS-CoV-1,Unvaccinated,Recovered: Wuhan,25.618972921155517
+RG22927,RaTG13 (bat),Unvaccinated,Recovered: Wuhan,47.2228979161599
+RG22927,Rs4084 (bat),Unvaccinated,Recovered: Wuhan,0
+RG22927,GX/P1E (pangolin),Unvaccinated,Recovered: Wuhan,0
+RG25492,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,35.38700753215808
+RG25492,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,96.12290394494524
+RG25492,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,68.27300772193374
+RG25492,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,62.75674882629108
+RG25529,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,96.75087336685446
+RG25529,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,96.87893767568092
+RG25529,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,90.48841709938876
+RG25529,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,98.75660211267606
+RG27126,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,94.50132267119
+RG27126,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,94.37821072017059
+RG27126,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,95.78646841288395
+RG27126,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,99.42048122065728
+RG27390,SARS-CoV-1,Unvaccinated,Recovered: Alpha,20.67467563671312
+RG27390,RaTG13 (bat),Unvaccinated,Recovered: Alpha,94.46640316205534
+RG27390,Rs4084 (bat),Unvaccinated,Recovered: Alpha,57.54644218691465
+RG27390,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,72.51517779705117
+RG27406,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,22.241069445285845
+RG27406,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,95.26025007269556
+RG27406,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,65.72074575102033
+RG27406,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,89.18353873239437
+RG27807,SARS-CoV-1,Unvaccinated,Recovered: Alpha,0
+RG27807,RaTG13 (bat),Unvaccinated,Recovered: Alpha,83.69565217391305
+RG27807,Rs4084 (bat),Unvaccinated,Recovered: Alpha,5.363714493488175
+RG27807,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,9.345186470078062
+RG28021,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,59.64540296036025
+RG28021,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,96.70446835320345
+RG28021,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,88.33087432217518
+RG28021,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,96.63659037558685
+RG28057,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,86.30479998384524
+RG28057,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,96.63661917223999
+RG28057,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,91.00576749889824
+RG28057,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,98.11839788732394
+RG28073,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,0
+RG28073,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,93.38501812323801
+RG28073,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,23.423811266332308
+RG28073,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,8.9171098477902
+RG28081,SARS-CoV-1,Unvaccinated,Recovered: Alpha,12.609322441134069
+RG28081,RaTG13 (bat),Unvaccinated,Recovered: Alpha,94.64606539705353
+RG28081,Rs4084 (bat),Unvaccinated,Recovered: Alpha,42.79292183609158
+RG28081,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,16.790980052038165
+RG28111,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,28.597968538599787
+RG28111,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,98.35223417660173
+RG28111,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,68.364981126290985
+RG28111,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,53.64583333333333
+RG28171,SARS-CoV-1,Unvaccinated,Recovered: Alpha,0
+RG28171,RaTG13 (bat),Unvaccinated,Recovered: Alpha,95.70607258354293
+RG28171,Rs4084 (bat),Unvaccinated,Recovered: Alpha,0
+RG28171,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,49.826539462272336
+RG28417,SARS-CoV-1,Unvaccinated,Recovered: Alpha,0
+RG28417,RaTG13 (bat),Unvaccinated,Recovered: Alpha,68.50521020481494
+RG28417,Rs4084 (bat),Unvaccinated,Recovered: Alpha,14.189382754137384
+RG28417,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,10.052038161318293
+RG28720,SARS-CoV-1,Unvaccinated,Recovered: Alpha,0
+RG28720,RaTG13 (bat),Unvaccinated,Recovered: Alpha,82.12360761767877
+RG28720,Rs4084 (bat),Unvaccinated,Recovered: Alpha,0
+RG28720,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,0
+RG28857,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,13.608221892025753
+RG28857,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,96.89891260571889
+RG28857,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,34.75902447424501
+RG28857,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,48.04694663487988
+RG28971,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,79.85703035076028
+RG28971,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,98.10022293302316
+RG28971,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,85.02558010308685
+RG28971,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,95.65727699530517
+RG29203,SARS-CoV-1,Unvaccinated,Recovered: Alpha,0
+RG29203,RaTG13 (bat),Unvaccinated,Recovered: Alpha,95.07725476104923
+RG29203,Rs4084 (bat),Unvaccinated,Recovered: Alpha,40.23446968862249
+RG29203,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,18.551604509973984
+RG29231,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,7.314068778901884
+RG29231,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,92.19734418920228
+RG29231,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,28.07488168004751
+RG29231,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,53.24237089201878
+RG29257,SARS-CoV-1,Unvaccinated,Recovered: Alpha,1.7760691975012008
+RG29257,RaTG13 (bat),Unvaccinated,Recovered: Alpha,34.18972332015811
+RG29257,Rs4084 (bat),Unvaccinated,Recovered: Alpha,12.633597038277628
+RG29257,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,0
+RG29404,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,14.242442600109044
+RG29404,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,98.82717844334593
+RG29404,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,33.90944451895993
+RG29404,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,23.323796948356815
+RG29427,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,0
+RG29427,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,96.98952879581152
+RG29427,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,0
+RG29427,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,0
+RG29597,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,6.879289605886925
+RG29597,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,91.6935159081756
+RG29597,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,14.467141657877178
+RG29597,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,0.829818448560431
+RG29711,SARS-CoV-1,Unvaccinated,Recovered: Alpha,4.313310908217204
+RG29711,RaTG13 (bat),Unvaccinated,Recovered: Alpha,53.82680560546173
+RG29711,Rs4084 (bat),Unvaccinated,Recovered: Alpha,11.503118182419186
+RG29711,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,4.379878577623586
+RG29727,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,31.90936106983655
+RG29727,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,95.84172372130487
+RG29727,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,37.72305572895366
+RG29727,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,29.44250871080139
+RG29915,SARS-CoV-1,Unvaccinated,Naive,0
+RG29915,RaTG13 (bat),Unvaccinated,Naive,0
+RG29915,Rs4084 (bat),Unvaccinated,Naive,0
+RG29915,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG29916,SARS-CoV-1,Unvaccinated,Naive,0
+RG29916,RaTG13 (bat),Unvaccinated,Naive,0
+RG29916,Rs4084 (bat),Unvaccinated,Naive,0
+RG29916,GX/P1E (pangolin),Unvaccinated,Naive,5.271593807553316
+RG29924,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,37.13118233920611
+RG29924,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,95.11679420056383
+RG29924,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,48.98077792367135
+RG29924,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,58.85750962772786
+RG29929,SARS-CoV-1,Unvaccinated,Naive,39.69714046792343
+RG29929,RaTG13 (bat),Unvaccinated,Naive,26.645573196225783
+RG29929,Rs4084 (bat),Unvaccinated,Naive,0
+RG29929,GX/P1E (pangolin),Unvaccinated,Naive,16.48673432430975
+RG29933,SARS-CoV-1,Vaccinated: 1 dose,Naive,0
+RG29933,RaTG13 (bat),Vaccinated: 1 dose,Naive,73.56296201886312
+RG29933,Rs4084 (bat),Vaccinated: 1 dose,Naive,0
+RG29933,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,0
+RG29970,SARS-CoV-1,Unvaccinated,Naive,48.51751531567562
+RG29970,RaTG13 (bat),Unvaccinated,Naive,10.27741680320922
+RG29970,Rs4084 (bat),Unvaccinated,Naive,0
+RG29970,GX/P1E (pangolin),Unvaccinated,Naive,6.967658413667152
+RG29999,SARS-CoV-1,Unvaccinated,Naive,47.87034848842917
+RG29999,RaTG13 (bat),Unvaccinated,Naive,46.714503644273684
+RG29999,Rs4084 (bat),Unvaccinated,Naive,0
+RG29999,GX/P1E (pangolin),Unvaccinated,Naive,41.87067988996
+RG30199,SARS-CoV-1,Unvaccinated,Recovered: Alpha,11.121576165305143
+RG30199,RaTG13 (bat),Unvaccinated,Recovered: Alpha,97.34099892202659
+RG30199,Rs4084 (bat),Unvaccinated,Recovered: Alpha,35.05145551907269
+RG30199,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,44.36686903729402
+RG30211,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,31.332696525861465
+RG30211,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,88.08900523560209
+RG30211,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,43.21415502507695
+RG30211,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,57.58298184485604
+RG30291,SARS-CoV-1,Unvaccinated,Recovered: Alpha,19.300336376741953
+RG30291,RaTG13 (bat),Unvaccinated,Recovered: Alpha,97.80812073302192
+RG30291,Rs4084 (bat),Unvaccinated,Recovered: Alpha,33.848255801141505
+RG30291,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,70.7285342584562
+RG30294,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,92.21542375961714
+RG30294,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,97.50896578462732
+RG30294,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,95.07175841652456
+RG30294,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,98.99867957746478
+RG30301,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,0
+RG30301,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,95.09547349035573
+RG30301,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,0
+RG30301,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,34.110915492957744
+RG30362,SARS-CoV-1,Unvaccinated,Recovered: Alpha,0
+RG30362,RaTG13 (bat),Unvaccinated,Recovered: Alpha,91.89723320158103
+RG30362,Rs4084 (bat),Unvaccinated,Recovered: Alpha,28.187046871901103
+RG30362,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,10.385949696444058
+RG30434,SARS-CoV-1,Unvaccinated,Recovered: Alpha,36.35367611725132
+RG30434,RaTG13 (bat),Unvaccinated,Recovered: Alpha,95.35573122529644
+RG30434,Rs4084 (bat),Unvaccinated,Recovered: Alpha,58.86643601665969
+RG30434,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,35.59843885516045
+RG30448,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,26.118212475515435
+RG30448,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,98.82717844334593
+RG30448,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,82.03452834888577
+RG30448,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,96.82731807511738
+RG30620,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,97.737564565202
+RG30620,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,97.95610149013291
+RG30620,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,98.14236821146436
+RG30620,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,99.40399779937648
+RG30642,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,37.65301068421425
+RG30642,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,94.27104309303262
+RG30642,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,50.94603611942226
+RG30642,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,91.73849257289565
+RG30656,SARS-CoV-1,Unvaccinated,Recovered: Alpha,0
+RG30656,RaTG13 (bat),Unvaccinated,Recovered: Alpha,0
+RG30656,Rs4084 (bat),Unvaccinated,Recovered: Alpha,0
+RG30656,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,0
+RG30816,SARS-CoV-1,Vaccinated: 2 doses,Naive,80.96311512661565
+RG30816,RaTG13 (bat),Vaccinated: 2 doses,Naive,96.59020283631844
+RG30816,Rs4084 (bat),Vaccinated: 2 doses,Naive,83.10086107054735
+RG30816,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,98.33938245062456
+RG30823,SARS-CoV-1,Vaccinated: 2 doses,Naive,12.392517588031055
+RG30823,RaTG13 (bat),Vaccinated: 2 doses,Naive,97.73998530990451
+RG30823,Rs4084 (bat),Vaccinated: 2 doses,Naive,29.97532604864294
+RG30823,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,58.76736713133134
+RG30829,SARS-CoV-1,Unvaccinated,Recovered: Alpha,45.21287842383469
+RG30829,RaTG13 (bat),Unvaccinated,Recovered: Alpha,96.22709306503774
+RG30829,Rs4084 (bat),Unvaccinated,Recovered: Alpha,65.5831992771987
+RG30829,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,6.7389418907198575
+RG30844,SARS-CoV-1,Vaccinated: 2 doses,Naive,16.74635059717501
+RG30844,RaTG13 (bat),Vaccinated: 2 doses,Naive,91.8865472625572
+RG30844,Rs4084 (bat),Vaccinated: 2 doses,Naive,22.8521073568659
+RG30844,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,53.79707330605451
+RG30882,SARS-CoV-1,Vaccinated: 2 doses,Naive,17.97160464651239
+RG30882,RaTG13 (bat),Vaccinated: 2 doses,Naive,98.88129272840274
+RG30882,Rs4084 (bat),Vaccinated: 2 doses,Naive,60.52469912885845
+RG30882,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,95.95595317906158
+RG30890,SARS-CoV-1,Vaccinated: 2 doses,Naive,35.717791634096244
+RG30890,RaTG13 (bat),Vaccinated: 2 doses,Naive,96.6890784790101
+RG30890,Rs4084 (bat),Vaccinated: 2 doses,Naive,57.037111637041136
+RG30890,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,74.67384854859714
+RG31111,SARS-CoV-1,Unvaccinated,Naive,1.7753174650369488
+RG31111,RaTG13 (bat),Unvaccinated,Naive,15.829722151414742
+RG31111,Rs4084 (bat),Unvaccinated,Naive,0
+RG31111,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG31130,SARS-CoV-1,Unvaccinated,Naive,34.356196258794014
+RG31130,RaTG13 (bat),Unvaccinated,Naive,10.653144245437602
+RG31130,Rs4084 (bat),Unvaccinated,Naive,0
+RG31130,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG31135,SARS-CoV-1,Vaccinated: 1 dose,Naive,44.78176298423894
+RG31135,RaTG13 (bat),Vaccinated: 1 dose,Naive,51.35883383241991
+RG31135,Rs4084 (bat),Vaccinated: 1 dose,Naive,0
+RG31135,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,29.71465119325582
+RG31139,SARS-CoV-1,Vaccinated: 1 dose,Naive,8.073224381464854
+RG31139,RaTG13 (bat),Vaccinated: 1 dose,Naive,57.158596530877446
+RG31139,Rs4084 (bat),Vaccinated: 1 dose,Naive,0
+RG31139,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,22.725416310269637
+RG31140,SARS-CoV-1,Vaccinated: 1 dose,Naive,35.137886527659106
+RG31140,RaTG13 (bat),Vaccinated: 1 dose,Naive,61.246398101587666
+RG31140,Rs4084 (bat),Vaccinated: 1 dose,Naive,0
+RG31140,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,10.803646423314916
+RG31147,SARS-CoV-1,Vaccinated: 1 dose,Naive,78.71621007471505
+RG31147,RaTG13 (bat),Vaccinated: 1 dose,Naive,96.81337928696537
+RG31147,Rs4084 (bat),Vaccinated: 1 dose,Naive,76.23143159272874
+RG31147,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,98.59059420055328
+RG31161,SARS-CoV-1,Unvaccinated,Naive,29.025413420837822
+RG31161,RaTG13 (bat),Unvaccinated,Naive,13.210553148100942
+RG31161,Rs4084 (bat),Unvaccinated,Naive,0
+RG31161,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG31178,SARS-CoV-1,Unvaccinated,Recovered: Alpha,25.29937530033638
+RG31178,RaTG13 (bat),Unvaccinated,Recovered: Alpha,94.31369026230686
+RG31178,Rs4084 (bat),Unvaccinated,Recovered: Alpha,13.393860596311072
+RG31178,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,58.24371205550737
+RG31182,SARS-CoV-1,Vaccinated: 1 dose,Naive,38.41189623516152
+RG31182,RaTG13 (bat),Vaccinated: 1 dose,Naive,72.28656986270411
+RG31182,Rs4084 (bat),Vaccinated: 1 dose,Naive,0
+RG31182,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,20.865216419693155
+RG31184,SARS-CoV-1,Vaccinated: 1 dose,Naive,18.57150648075769
+RG31184,RaTG13 (bat),Vaccinated: 1 dose,Naive,72.60862195604271
+RG31184,Rs4084 (bat),Vaccinated: 1 dose,Naive,6.843244876378478
+RG31184,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,26.068227878339528
+RG31193,SARS-CoV-1,Vaccinated: 1 dose,Naive,33.35272409969278
+RG31193,RaTG13 (bat),Vaccinated: 1 dose,Naive,71.02661167297587
+RG31193,Rs4084 (bat),Vaccinated: 1 dose,Naive,28.38914346140288
+RG31193,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,2.445846914950181
+RG31195,SARS-CoV-1,Unvaccinated,Naive,3.4139868021596556
+RG31195,RaTG13 (bat),Unvaccinated,Naive,0
+RG31195,Rs4084 (bat),Unvaccinated,Naive,0
+RG31195,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG31196,SARS-CoV-1,Unvaccinated,Naive,46.145009487460875
+RG31196,RaTG13 (bat),Unvaccinated,Naive,34.82984960489421
+RG31196,Rs4084 (bat),Unvaccinated,Naive,0
+RG31196,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG31198,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,69.41903434906403
+RG31198,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,97.56712222545313
+RG31198,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,93.97957423978232
+RG31198,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,99.39480633802818
+RG31424,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,43.42850067218566
+RG31424,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,95.24768425291985
+RG31424,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,52.56473728393999
+RG31424,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,66.70181551439575
+RG31448,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,28.564352932852188
+RG31448,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,97.44260974627467
+RG31448,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,41.14342295025507
+RG31448,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,52.177700348432055
+RG31489,SARS-CoV-1,Unvaccinated,Recovered: Alpha,29.79336857280154
+RG31489,RaTG13 (bat),Unvaccinated,Recovered: Alpha,59.432267337405676
+RG31489,Rs4084 (bat),Unvaccinated,Recovered: Alpha,16.573745565129244
+RG31489,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,15.26886383347788
+RG31510,SARS-CoV-1,Unvaccinated,Recovered: Alpha,0.45747236905333466
+RG31510,RaTG13 (bat),Unvaccinated,Recovered: Alpha,83.09378368666907
+RG31510,Rs4084 (bat),Unvaccinated,Recovered: Alpha,19.312898036536723
+RG31510,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,12.588898525585435
+RG31571,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,17.873225500292804
+RG31571,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,96.49122807017544
+RG31571,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,79.11628887313418
+RG31571,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,68.26951291079813
+RG31620,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,32.84334536191892
+RG31620,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,73.66089407974225
+RG31620,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,21.18302946811029
+RG31620,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,6.313038694296708
+RG31685,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,95.93303850891542
+RG31685,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,99.2633517495396
+RG31685,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,96.2654965605779
+RG31685,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,99.71024061032864
+RG31700,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,98.96003715595404
+RG31700,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,99.90307259862364
+RG31700,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,94.1481921477706
+RG31700,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,99.73958333333333
+RG31749,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,35.701903346777044
+RG31749,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,93.59645590012082
+RG31749,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,10.435456443593011
+RG31749,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,0
+RG31904,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,30.158140522182137
+RG31904,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,99.44623439387837
+RG31904,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,52.24401059043847
+RG31904,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,44.411333211076474
+RG32094,SARS-CoV-1,Unvaccinated,Recovered: Alpha,10.479577126381542
+RG32094,RaTG13 (bat),Unvaccinated,Recovered: Alpha,63.24110671936759
+RG32094,Rs4084 (bat),Unvaccinated,Recovered: Alpha,21.765574384627257
+RG32094,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,26.296617519514314
+RG32113,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,56.131040826434585
+RG32113,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,93.4857027788965
+RG32113,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,52.57765245280582
+RG32113,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,24.912891986062718
+RG32136,SARS-CoV-1,Unvaccinated,Recovered: Alpha,6.537241710716003
+RG32136,RaTG13 (bat),Unvaccinated,Recovered: Alpha,91.64570607258354
+RG32136,Rs4084 (bat),Unvaccinated,Recovered: Alpha,25.851164635624414
+RG32136,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,4.158716392020807
+RG32150,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,41.19790561098139
+RG32150,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,96.8385018123238
+RG32150,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,55.26616010504337
+RG32150,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,64.60663854758849
+RG32208,SARS-CoV-1,Unvaccinated,Recovered: Alpha,18.591061989428155
+RG32208,RaTG13 (bat),Unvaccinated,Recovered: Alpha,97.69134028027308
+RG32208,Rs4084 (bat),Unvaccinated,Recovered: Alpha,54.359946230635316
+RG32208,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,18.23503902862099
+RG32220,SARS-CoV-1,Unvaccinated,Recovered: Alpha,85.36088419029313
+RG32220,RaTG13 (bat),Unvaccinated,Recovered: Alpha,95.21200143729789
+RG32220,Rs4084 (bat),Unvaccinated,Recovered: Alpha,92.19462747085656
+RG32220,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,86.07111882046834
+RG32294,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,91.76510975141859
+RG32294,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,90.08432683919744
+RG32294,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,82.92168847841499
+RG32294,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,92.08113262910798
+RG32317,SARS-CoV-1,Unvaccinated,Recovered: Alpha,29.67611725132147
+RG32317,RaTG13 (bat),Unvaccinated,Recovered: Alpha,73.16744520301833
+RG32317,Rs4084 (bat),Unvaccinated,Recovered: Alpha,30.287137222063066
+RG32317,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,0
+RG32371,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,52.2061347711072
+RG32371,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,98.62363090045555
+RG32371,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,90.91954243231332
+RG32371,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,91.09448356807512
+RG32492,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,43.207386966673745
+RG32492,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,97.96616995569875
+RG32492,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,47.118841078847105
+RG32492,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,33.068952869979825
+RG32565,SARS-CoV-1,Unvaccinated,Recovered: Alpha,8.657376261412793
+RG32565,RaTG13 (bat),Unvaccinated,Recovered: Alpha,93.32554796981674
+RG32565,Rs4084 (bat),Unvaccinated,Recovered: Alpha,15.392582472068582
+RG32565,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,13.022549869904594
+RG32581,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,34.32569164367084
+RG32581,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,95.42891663310512
+RG32581,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,41.05516929633855
+RG32581,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,11.9200440124702
+RG32636,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,13.022758021849313
+RG32636,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,99.5541339536687
+RG32636,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,33.50706087489701
+RG32636,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,62.228579812206576
+RG32668,SARS-CoV-1,Unvaccinated,Recovered: Alpha,4.522825564632399
+RG32668,RaTG13 (bat),Unvaccinated,Recovered: Alpha,44.90657563780094
+RG32668,Rs4084 (bat),Unvaccinated,Recovered: Alpha,31.494744264968375
+RG32668,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,0
+RG32674,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,0
+RG32674,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,97.07279247843366
+RG32674,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,52.28496426450018
+RG32674,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,95.44087441314554
+RG32677,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,28.980046699214597
+RG32677,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,98.29842931937173
+RG32677,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,63.68039262113352
+RG32677,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,96.1168164313222
+RG32713,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,81.21771739899526
+RG32713,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,98.59041482078132
+RG32713,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,88.4667542028112
+RG32713,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,85.5217311571612
+RG33003,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,21.56831529045496
+RG33003,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,96.23439387837294
+RG33003,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,61.3169167186861
+RG33003,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,39.08857509627728
+RG33012,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,61.09933159669635
+RG33012,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,97.75128428806823
+RG33012,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,82.54996263580448
+RG33012,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,99.80927230046949
+RG33311,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,34.42983784657014
+RG33311,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,94.10681399631676
+RG33311,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,74.06541608384909
+RG33311,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,88.74339788732394
+RG33389,SARS-CoV-1,Unvaccinated,Recovered: Alpha,33.47621335896204
+RG33389,RaTG13 (bat),Unvaccinated,Recovered: Alpha,95.79590370104204
+RG33389,Rs4084 (bat),Unvaccinated,Recovered: Alpha,56.268317944423636
+RG33389,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,16.565481352992194
+RG33456,SARS-CoV-1,Unvaccinated,Recovered: Alpha,56.41518500720807
+RG33456,RaTG13 (bat),Unvaccinated,Recovered: Alpha,98.54473589651455
+RG33456,Rs4084 (bat),Unvaccinated,Recovered: Alpha,74.33394301328809
+RG33456,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,60.94969644405898
+RG33490,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,40.8476615014505
+RG33490,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,91.92509061619009
+RG33490,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,44.327012075682894
+RG33490,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,26.668806161745835
+RG33865,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,13.071222309727176
+RG33865,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,91.79994184355917
+RG33865,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,60.43610722566058
+RG33865,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,86.56470070422536
+RG33922,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,54.841505695889055
+RG33922,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,95.14699959726138
+RG33922,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,59.09766020190714
+RG33922,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,92.19695580414451
+RG33971,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,70.45744003396307
+RG33971,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,99.14418042690293
+RG33971,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,75.39014572615537
+RG33971,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,44.145424536952135
+RG34097,SARS-CoV-1,Unvaccinated,Recovered: Alpha,41.84718885151369
+RG34097,RaTG13 (bat),Unvaccinated,Recovered: Alpha,88.08839381961911
+RG34097,Rs4084 (bat),Unvaccinated,Recovered: Alpha,47.665219594966835
+RG34097,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,0
+RG34141,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,91.37739544839563
+RG34141,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,96.93709411650674
+RG34141,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,97.06643162352219
+RG34141,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,98.4631748826291
+RG34154,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,45.22040614165428
+RG34154,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,94.54289166331051
+RG34154,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,37.60466668101685
+RG34154,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,46.194755180634516
+RG34190,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,96.7791442014499
+RG34190,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,97.86759716971989
+RG34190,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,92.44285194198011
+RG34190,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,96.68794014084507
+RG34276,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,70.64275761798025
+RG34276,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,96.18106038577106
+RG34276,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,86.94360880645347
+RG34276,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,92.29386737089202
+RG34302,SARS-CoV-1,Vaccinated: 1 dose,Naive,41.678334531654606
+RG34302,RaTG13 (bat),Vaccinated: 1 dose,Naive,43.8216925822075
+RG34302,Rs4084 (bat),Vaccinated: 1 dose,Naive,8.658893414300621
+RG34302,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,10.52615302146259
+RG34317,SARS-CoV-1,Vaccinated: 1 dose,Naive,6.17549910531352
+RG34317,RaTG13 (bat),Vaccinated: 1 dose,Naive,68.7484068315065
+RG34317,Rs4084 (bat),Vaccinated: 1 dose,Naive,0
+RG34317,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,5.511514751664848
+RG34335,SARS-CoV-1,Vaccinated: 1 dose,Naive,43.622047669760676
+RG34335,RaTG13 (bat),Vaccinated: 1 dose,Naive,56.449146061687486
+RG34335,Rs4084 (bat),Vaccinated: 1 dose,Naive,19.979856199732396
+RG34335,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,8.20361627115848
+RG34344,SARS-CoV-1,Unvaccinated,Naive,16.424930127959087
+RG34344,RaTG13 (bat),Unvaccinated,Naive,22.632551618659193
+RG34344,Rs4084 (bat),Unvaccinated,Naive,41.81676493508403
+RG34344,GX/P1E (pangolin),Unvaccinated,Naive,18.102488505865622
+RG34352,SARS-CoV-1,Vaccinated: 1 dose,Naive,53.13626804915099
+RG34352,RaTG13 (bat),Vaccinated: 1 dose,Naive,69.25503441243946
+RG34352,Rs4084 (bat),Vaccinated: 1 dose,Naive,18.01767361162166
+RG34352,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,14.144485908088157
+RG34361,SARS-CoV-1,Vaccinated: 1 dose,Naive,99.10396202853266
+RG34361,RaTG13 (bat),Vaccinated: 1 dose,Naive,94.84769309202142
+RG34361,Rs4084 (bat),Vaccinated: 1 dose,Naive,98.92002764258723
+RG34361,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,97.72642929303342
+RG34370,SARS-CoV-1,Vaccinated: 1 dose,Naive,25.459101204988627
+RG34370,RaTG13 (bat),Vaccinated: 1 dose,Naive,89.76867193474382
+RG34370,Rs4084 (bat),Vaccinated: 1 dose,Naive,21.428886503653814
+RG34370,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,18.844710636455474
+RG34391,SARS-CoV-1,Vaccinated: 1 dose,Naive,41.7129326795725
+RG34391,RaTG13 (bat),Vaccinated: 1 dose,Naive,95.68251338261534
+RG34391,Rs4084 (bat),Vaccinated: 1 dose,Naive,43.175368690358916
+RG34391,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,15.819124590231539
+RG34393,SARS-CoV-1,Vaccinated: 1 dose,Naive,34.13593828555365
+RG34393,RaTG13 (bat),Vaccinated: 1 dose,Naive,99.89803721641601
+RG34393,Rs4084 (bat),Vaccinated: 1 dose,Naive,78.41378600520504
+RG34393,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,97.8702348308352
+RG34395,SARS-CoV-1,Unvaccinated,Naive,57.24425751833972
+RG34395,RaTG13 (bat),Unvaccinated,Naive,43.64963038490951
+RG34395,Rs4084 (bat),Unvaccinated,Naive,22.84189322315507
+RG34395,GX/P1E (pangolin),Unvaccinated,Naive,13.404840937673953
+RG34397,SARS-CoV-1,Vaccinated: 1 dose,Naive,25.663716814159287
+RG34397,RaTG13 (bat),Vaccinated: 1 dose,Naive,86.1776701503951
+RG34397,Rs4084 (bat),Vaccinated: 1 dose,Naive,45.93521636205908
+RG34397,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,38.364637238933675
+RG34423,SARS-CoV-1,Vaccinated: 2 doses,Naive,39.48081223072588
+RG34423,RaTG13 (bat),Vaccinated: 2 doses,Naive,45.66642183174191
+RG34423,Rs4084 (bat),Vaccinated: 2 doses,Naive,0
+RG34423,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,5.011905587534969
+RG34470,SARS-CoV-1,Vaccinated: 2 doses,Naive,32.809176680179604
+RG34470,RaTG13 (bat),Vaccinated: 2 doses,Naive,97.68913497937737
+RG34470,Rs4084 (bat),Vaccinated: 2 doses,Naive,0
+RG34470,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,42.265991631412255
+RG34558,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,56.71124318969787
+RG34558,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,93.0426902939992
+RG34558,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,58.86733969046645
+RG34558,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,64.7625160462131
+RG34573,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,96.50249389148038
+RG34573,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,98.22622855481245
+RG34573,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,98.1049646477227
+RG34573,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,98.0156983568075
+RG34594,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,36.54744215665464
+RG34594,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,94.18042690293998
+RG34594,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,54.48479238866048
+RG34594,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,74.7982761782505
+RG34728,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,31.62456661713719
+RG34728,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,98.3991139750302
+RG34728,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,58.527240243666185
+RG34728,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,66.14707500458464
+RG34740,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,30.272005815714536
+RG34740,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,95.97751284288069
+RG34740,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,82.38709306558853
+RG34740,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,97.21977699530517
+RG34771,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,89.34795339350983
+RG34771,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,97.2666472811864
+RG34771,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,86.55080572534442
+RG34771,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,90.90742370892019
+RG34809,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,46.03587348758226
+RG34809,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,99.69794603302456
+RG34809,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,72.90182319133822
+RG34809,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,86.73207408765816
+RG34811,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,77.23390076937056
+RG34811,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,94.24251235824367
+RG34811,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,87.97447738029086
+RG34811,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,97.78095657276995
+RG34952,SARS-CoV-1,Vaccinated: 2 doses,Naive,0
+RG34952,RaTG13 (bat),Vaccinated: 2 doses,Naive,95.89281162375732
+RG34952,Rs4084 (bat),Vaccinated: 2 doses,Naive,26.717736836688175
+RG34952,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,19.931241366513405
+RG34958,SARS-CoV-1,Unvaccinated,Naive,0
+RG34958,RaTG13 (bat),Unvaccinated,Naive,87.503186336987
+RG34958,Rs4084 (bat),Unvaccinated,Naive,11.550337445413234
+RG34958,GX/P1E (pangolin),Unvaccinated,Naive,76.23291342803537
+RG34973,SARS-CoV-1,Vaccinated: 2 doses,Naive,0
+RG34973,RaTG13 (bat),Vaccinated: 2 doses,Naive,64.04537343869487
+RG34973,Rs4084 (bat),Vaccinated: 2 doses,Naive,12.131125847289411
+RG34973,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,22.774364472300675
+RG34977,SARS-CoV-1,Unvaccinated,Naive,27.576615976775997
+RG34977,RaTG13 (bat),Unvaccinated,Naive,20.344761661993374
+RG34977,Rs4084 (bat),Unvaccinated,Naive,0
+RG34977,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG34985,SARS-CoV-1,Vaccinated: 2 doses,Naive,27.429573848124946
+RG34985,RaTG13 (bat),Vaccinated: 2 doses,Naive,99.78651542187102
+RG34985,Rs4084 (bat),Vaccinated: 2 doses,Naive,61.72972019232183
+RG34985,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,57.175329361070446
+RG35083,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,26.79065446982088
+RG35083,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,97.39265290297567
+RG35083,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,49.1674490793079
+RG35083,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,59.91050469483568
+RG35094,SARS-CoV-1,Unvaccinated,Recovered: Alpha,1.4339259971167735
+RG35094,RaTG13 (bat),Unvaccinated,Recovered: Alpha,64.35501257635644
+RG35094,Rs4084 (bat),Unvaccinated,Recovered: Alpha,18.182419180678295
+RG35094,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,2.0598438855160452
+RG35103,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,53.460148219947094
+RG35103,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,94.68837840457498
+RG35103,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,86.21356990936788
+RG35103,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,98.11839788732394
+RG35105,SARS-CoV-1,Vaccinated: 2 doses,Naive,42.492742497878154
+RG35105,RaTG13 (bat),Vaccinated: 2 doses,Naive,99.79926076981901
+RG35105,Rs4084 (bat),Vaccinated: 2 doses,Naive,60.28730646513064
+RG35105,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,38.92748902129766
+RG35138,SARS-CoV-1,Vaccinated: 2 doses,Naive,37.9441672387975
+RG35138,RaTG13 (bat),Vaccinated: 2 doses,Naive,95.62515931684935
+RG35138,Rs4084 (bat),Vaccinated: 2 doses,Naive,34.10992339474497
+RG35138,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,18.050429870317302
+RG35142,SARS-CoV-1,Unvaccinated,Naive,47.96898059800736
+RG35142,RaTG13 (bat),Unvaccinated,Naive,64.80690797858782
+RG35142,Rs4084 (bat),Unvaccinated,Naive,16.06284277543338
+RG35142,GX/P1E (pangolin),Unvaccinated,Naive,38.014143455044014
+RG35146,SARS-CoV-1,Vaccinated: 2 doses,Naive,18.269173590801216
+RG35146,RaTG13 (bat),Vaccinated: 2 doses,Naive,97.68353301045119
+RG35146,Rs4084 (bat),Vaccinated: 2 doses,Naive,25.667171486965344
+RG35146,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,17.64066140238748
+RG35148,SARS-CoV-1,Unvaccinated,Recovered: Alpha,20.08265257087939
+RG35148,RaTG13 (bat),Unvaccinated,Recovered: Alpha,68.69385555156306
+RG35148,Rs4084 (bat),Unvaccinated,Recovered: Alpha,41.6271843804403
+RG35148,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,30.28620988725065
+RG35178,SARS-CoV-1,Unvaccinated,Naive,16.883896183932407
+RG35178,RaTG13 (bat),Unvaccinated,Naive,23.6808564873821
+RG35178,Rs4084 (bat),Unvaccinated,Naive,4.785990501536517
+RG35178,GX/P1E (pangolin),Unvaccinated,Naive,5.020823454219325
+RG35180,SARS-CoV-1,Vaccinated: 2 doses,Naive,23.987869024386285
+RG35180,RaTG13 (bat),Vaccinated: 2 doses,Naive,96.2911037471323
+RG35180,Rs4084 (bat),Vaccinated: 2 doses,Naive,35.0509476408228
+RG35180,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,30.643465352658595
+RG35186,SARS-CoV-1,Vaccinated: 2 doses,Naive,2.975170422908306
+RG35186,RaTG13 (bat),Vaccinated: 2 doses,Naive,96.37076217180729
+RG35186,Rs4084 (bat),Vaccinated: 2 doses,Naive,42.02481951449031
+RG35186,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,32.87992495309568
+RG35197,SARS-CoV-1,Vaccinated: 2 doses,Naive,16.061649574821203
+RG35197,RaTG13 (bat),Vaccinated: 2 doses,Naive,95.14083609482539
+RG35197,Rs4084 (bat),Vaccinated: 2 doses,Naive,60.75781858816956
+RG35197,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,54.00748407315012
+RG35202,SARS-CoV-1,Vaccinated: 1 dose,Naive,54.970510484860604
+RG35202,RaTG13 (bat),Vaccinated: 1 dose,Naive,86.1936018353301
+RG35202,Rs4084 (bat),Vaccinated: 1 dose,Naive,77.2308891208775
+RG35202,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,68.26588046100241
+RG35205,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,0
+RG35205,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,67.61655520015509
+RG35205,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,20.34719960144858
+RG35205,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,15.280223004694832
+RG35217,SARS-CoV-1,Unvaccinated,Recovered: Alpha,43.37366447321871
+RG35217,RaTG13 (bat),Unvaccinated,Recovered: Alpha,99.84897301651229
+RG35217,Rs4084 (bat),Unvaccinated,Recovered: Alpha,63.55985104505241
+RG35217,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,51.04071153493489
+RG35242,SARS-CoV-1,Vaccinated: 2 doses,Naive,31.711094652964363
+RG35242,RaTG13 (bat),Vaccinated: 2 doses,Naive,99.45195003823605
+RG35242,Rs4084 (bat),Vaccinated: 2 doses,Naive,39.317904456632014
+RG35242,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,53.41370636867823
+RG35252,SARS-CoV-1,Vaccinated: 2 doses,Naive,75.2498905292976
+RG35252,RaTG13 (bat),Vaccinated: 2 doses,Naive,98.85929135865409
+RG35252,Rs4084 (bat),Vaccinated: 2 doses,Naive,83.17036949905162
+RG35252,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,80.47440364513535
+RG35254,SARS-CoV-1,Vaccinated: 2 doses,Naive,36.05640579302739
+RG35254,RaTG13 (bat),Vaccinated: 2 doses,Naive,87.13994392046902
+RG35254,Rs4084 (bat),Vaccinated: 2 doses,Naive,18.95061093058476
+RG35254,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,16.298991814939285
+RG35256,SARS-CoV-1,Unvaccinated,Naive,34.027819073310226
+RG35256,RaTG13 (bat),Unvaccinated,Naive,40.28485852663778
+RG35256,Rs4084 (bat),Unvaccinated,Naive,6.770228345414708
+RG35256,GX/P1E (pangolin),Unvaccinated,Naive,14.024390243902445
+RG35257,SARS-CoV-1,Vaccinated: 1 dose,Naive,52.60999778355615
+RG35257,RaTG13 (bat),Vaccinated: 1 dose,Naive,67.86897782309458
+RG35257,Rs4084 (bat),Vaccinated: 1 dose,Naive,29.98926644219317
+RG35257,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,22.142960229264176
+RG35272,SARS-CoV-1,Vaccinated: 1 dose,Naive,66.06083868072938
+RG35272,RaTG13 (bat),Vaccinated: 1 dose,Naive,99.19704307927607
+RG35272,Rs4084 (bat),Vaccinated: 1 dose,Naive,54.23019805619679
+RG35272,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,53.101354555388326
+RG35291,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,71.61810141152239
+RG35291,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,98.27469225550063
+RG35291,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,85.51227270114391
+RG35291,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,99.79093309859155
+RG35312,SARS-CoV-1,Vaccinated: 1 dose,Naive,52.54231125815775
+RG35312,RaTG13 (bat),Vaccinated: 1 dose,Naive,86.00203401322108
+RG35312,Rs4084 (bat),Vaccinated: 1 dose,Naive,39.469258270809206
+RG35312,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,66.57959020120057
+RG35339,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,44.21566546380811
+RG35339,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,99.22472815142972
+RG35339,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,60.95959704673138
+RG35339,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,28.763983128553093
+RG35368,SARS-CoV-1,Vaccinated: 1 dose,Naive,54.365649257394246
+RG35368,RaTG13 (bat),Vaccinated: 1 dose,Naive,94.8330414147692
+RG35368,Rs4084 (bat),Vaccinated: 1 dose,Naive,10.969333803313361
+RG35368,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,48.96240300221159
+RG35391,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Delta,62.49442173470663
+RG35391,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Delta,97.10689572894297
+RG35391,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Delta,66.42984609455507
+RG35391,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Delta,71.5881017560259
+RG35403,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,55.122069425092384
+RG35403,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,96.06474750411941
+RG35403,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,78.35942439977774
+RG35403,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,62.162558685446015
+RG35407,SARS-CoV-1,Vaccinated: 1 dose,Naive,44.052091836458885
+RG35407,RaTG13 (bat),Vaccinated: 1 dose,Naive,99.77058373693602
+RG35407,Rs4084 (bat),Vaccinated: 1 dose,Naive,86.64848333357838
+RG35407,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,82.2067707152135
+RG35409,SARS-CoV-1,Vaccinated: 2 doses,Naive,98.55471643033609
+RG35409,RaTG13 (bat),Vaccinated: 2 doses,Naive,97.55289319398419
+RG35409,Rs4084 (bat),Vaccinated: 2 doses,Naive,98.85827292643837
+RG35409,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,99.47529018823577
+RG35418,SARS-CoV-1,Unvaccinated,Naive,0
+RG35418,RaTG13 (bat),Unvaccinated,Naive,34.530333928116235
+RG35418,Rs4084 (bat),Unvaccinated,Naive,0
+RG35418,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG35422,SARS-CoV-1,Unvaccinated,Naive,65.6189014006844
+RG35422,RaTG13 (bat),Unvaccinated,Naive,46.061687484068315
+RG35422,Rs4084 (bat),Unvaccinated,Naive,52.28786519827675
+RG35422,GX/P1E (pangolin),Unvaccinated,Naive,36.16838133723688
+RG35425,SARS-CoV-1,Vaccinated: 1 dose,Naive,57.40238186624572
+RG35425,RaTG13 (bat),Vaccinated: 1 dose,Naive,56.06997196023452
+RG35425,Rs4084 (bat),Vaccinated: 1 dose,Naive,19.85781711781918
+RG35425,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,12.63581634125724
+RG35432,SARS-CoV-1,Unvaccinated,Recovered: Alpha,36.07868110096937
+RG35432,RaTG13 (bat),Unvaccinated,Recovered: Alpha,99.09383809907371
+RG35432,Rs4084 (bat),Unvaccinated,Recovered: Alpha,32.91215532643089
+RG35432,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,3.085457546304781
+RG35435,SARS-CoV-1,Vaccinated: 2 doses,Naive,0
+RG35435,RaTG13 (bat),Vaccinated: 2 doses,Naive,81.19105276574051
+RG35435,Rs4084 (bat),Vaccinated: 2 doses,Naive,0
+RG35435,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,15.764488794507557
+RG35479,SARS-CoV-1,Vaccinated: 2 doses,Naive,45.86876490017894
+RG35479,RaTG13 (bat),Vaccinated: 2 doses,Naive,77.86451695131277
+RG35479,Rs4084 (bat),Vaccinated: 2 doses,Naive,12.522239049565513
+RG35479,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,5.570789435705009
+RG35607,SARS-CoV-1,Vaccinated: 2 doses,Naive,91.84860659164863
+RG35607,RaTG13 (bat),Vaccinated: 2 doses,Naive,98.52251539635007
+RG35607,Rs4084 (bat),Vaccinated: 2 doses,Naive,82.53688503952867
+RG35607,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,85.83658906843594
+RG35618,SARS-CoV-1,Vaccinated: 1 dose,Naive,34.74158774018797
+RG35618,RaTG13 (bat),Vaccinated: 1 dose,Naive,97.1100062150404
+RG35618,Rs4084 (bat),Vaccinated: 1 dose,Naive,0
+RG35618,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,31.255056984996642
+RG35629,SARS-CoV-1,Vaccinated: 2 doses,Naive,40.860586449490086
+RG35629,RaTG13 (bat),Vaccinated: 2 doses,Naive,95.87264817221312
+RG35629,Rs4084 (bat),Vaccinated: 2 doses,Naive,0
+RG35629,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,45.74982083824584
+RG35630,SARS-CoV-1,Vaccinated: 2 doses,Naive,30.81313966805432
+RG35630,RaTG13 (bat),Vaccinated: 2 doses,Naive,76.50997231482005
+RG35630,Rs4084 (bat),Vaccinated: 2 doses,Naive,27.80301122916562
+RG35630,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,40.181550577555846
+RG35634,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,17.7823549605218
+RG35634,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,97.71251332751768
+RG35634,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,52.712257372243194
+RG35634,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,38.17488262910798
+RG35652,SARS-CoV-1,Unvaccinated,Naive,35.238483952405915
+RG35652,RaTG13 (bat),Unvaccinated,Naive,20.43716543461636
+RG35652,Rs4084 (bat),Unvaccinated,Naive,6.8974136536736665
+RG35652,GX/P1E (pangolin),Unvaccinated,Naive,0
+RG35656,SARS-CoV-1,Vaccinated: 2 doses,Naive,62.880619534985186
+RG35656,RaTG13 (bat),Vaccinated: 2 doses,Naive,95.32741962822759
+RG35656,Rs4084 (bat),Vaccinated: 2 doses,Naive,10.551387280326296
+RG35656,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,53.489608618258316
+RG35669,SARS-CoV-1,Vaccinated: 2 doses,Naive,86.56401679725136
+RG35669,RaTG13 (bat),Vaccinated: 2 doses,Naive,99.92089948584666
+RG35669,Rs4084 (bat),Vaccinated: 2 doses,Naive,79.27388086006344
+RG35669,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,85.54915967357884
+RG35674,SARS-CoV-1,Vaccinated: 1 dose,Naive,45.994291843152936
+RG35674,RaTG13 (bat),Vaccinated: 1 dose,Naive,54.681055426860276
+RG35674,Rs4084 (bat),Vaccinated: 1 dose,Naive,8.025580341406922
+RG35674,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,24.823727951545422
+RG35683,SARS-CoV-1,Vaccinated: 1 dose,Naive,42.70755694522714
+RG35683,RaTG13 (bat),Vaccinated: 1 dose,Naive,41.660545793547655
+RG35683,Rs4084 (bat),Vaccinated: 1 dose,Naive,0
+RG35683,GX/P1E (pangolin),Vaccinated: 1 dose,Naive,0.1040294056453348
+RG35684,SARS-CoV-1,Vaccinated: 2 doses,Naive,64.44400007271537
+RG35684,RaTG13 (bat),Vaccinated: 2 doses,Naive,97.33600768404995
+RG35684,Rs4084 (bat),Vaccinated: 2 doses,Naive,48.88060828843346
+RG35684,GX/P1E (pangolin),Vaccinated: 2 doses,Naive,45.72901495711677
+RG35701,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,30.474775348475205
+RG35701,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,96.3954893274265
+RG35701,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,57.75233011171621
+RG35701,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,10.778470566660559
+RG35713,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,98.06344783021345
+RG35713,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,96.96617233691964
+RG35713,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,97.7159937917952
+RG35713,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,99.13072183098592
+RG35720,SARS-CoV-1,Unvaccinated,Recovered: Alpha,36.77916932003114
+RG35720,RaTG13 (bat),Unvaccinated,Recovered: Alpha,92.74063632702376
+RG35720,Rs4084 (bat),Unvaccinated,Recovered: Alpha,45.26336181845577
+RG35720,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,46.65780304419586
+RG35805,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,24.58430623363759
+RG35805,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,80.94039468385017
+RG35805,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,28.333727963493132
+RG35805,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,6.808178984045483
+RG35884,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,21.065944951531876
+RG35884,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,97.96616995569875
+RG35884,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,53.001700497234
+RG35884,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,24.559875298001103
+RG35963,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,96.86193735990791
+RG35963,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,96.84016671513037
+RG35963,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,96.52608787292341
+RG35963,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,99.36179577464789
+RG35991,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,25.92233597867572
+RG35991,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,93.91295919356402
+RG35991,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,53.70097146908353
+RG35991,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,30.831866197183103
+RG36018,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Delta,60.591563877831526
+RG36018,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Delta,90.90610832736817
+RG36018,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Delta,95.73471627610822
+RG36018,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Delta,97.21906923950057
+RG36054,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,75.89103612608793
+RG36054,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,88.38809731511098
+RG36054,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,92.58847649887907
+RG36054,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,97.64524647887323
+RG36071,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,82.57447109601642
+RG36071,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,96.35521546516311
+RG36071,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,83.55253244936178
+RG36071,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,89.64790023840088
+RG36089,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,0
+RG36089,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,43.284333467579536
+RG36089,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,11.509567987601443
+RG36089,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,0
+RG36143,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,12.316917851836124
+RG36143,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,93.6971405557793
+RG36143,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,74.24069569709624
+RG36143,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,62.65358518246837
+RG36146,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,62.47601871575335
+RG36146,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,98.6962962962963
+RG36146,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,52.701378682902934
+RG36146,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,55.58353783642435
+RG36163,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Delta,95.09112654183252
+RG36163,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Delta,99.88964447625865
+RG36163,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Delta,95.80341658358398
+RG36163,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Delta,98.43927355278093
+RG36210,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,69.95947948090894
+RG36210,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,99.83595800524934
+RG36210,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,90.19596343803148
+RG36210,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,89.81187821326033
+RG36232,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,61.17079275109612
+RG36232,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,98.27818930041153
+RG36232,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,87.46675764574148
+RG36232,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,98.6498772981454
+RG36303,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,23.973667736919694
+RG36303,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,97.95483183095861
+RG36303,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,52.06077909137941
+RG36303,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,22.311473004694832
+RG36345,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,6.721660678055002
+RG36345,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,67.95720164609054
+RG36345,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,31.442018335782777
+RG36345,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,35.243995655147444
+RG36461,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,42.878563395869406
+RG36461,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,97.14865187306133
+RG36461,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,92.76049564758418
+RG36461,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,98.55194631768713
+RG36489,SARS-CoV-1,Unvaccinated,Recovered: Alpha,38.02448170947428
+RG36489,RaTG13 (bat),Unvaccinated,Recovered: Alpha,98.84212645992751
+RG36489,Rs4084 (bat),Unvaccinated,Recovered: Alpha,33.92814861054309
+RG36489,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,28.186319457179536
+RG36492,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,68.30637507320127
+RG36492,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,96.0065910632936
+RG36492,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,75.66920232232846
+RG36492,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,74.66255868544602
+RG36504,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Delta,18.405597900787214
+RG36504,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Delta,96.22106895728943
+RG36504,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Delta,52.5858963295604
+RG36504,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Delta,51.04159711557722
+RG36509,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,99.08248692454615
+RG36509,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,99.95227869243617
+RG36509,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,99.37583257232383
+RG36509,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,99.7112238766108
+RG36562,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Delta,39.28705306938469
+RG36562,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Delta,98.0523741350513
+RG36562,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Delta,73.76821186504579
+RG36562,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Delta,25.812078520397947
+RG36759,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,3.0590227137842305
+RG36759,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,98.95967078189301
+RG36759,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,59.915844355798164
+RG36759,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,92.91145351410066
+RG36761,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,21.20888676233109
+RG36761,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,95.12427983539095
+RG36761,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,24.94576247463084
+RG36761,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,47.91326386933258
+RG36799,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,18.338953886923363
+RG36799,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,95.47654320987654
+RG36799,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,43.52386451116244
+RG36799,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,65.1462364726234
+RG36833,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,62.74608133163413
+RG36833,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,94.26172839506172
+RG36833,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,83.54153544684723
+RG36833,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,92.50191093052258
+RG36834,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,52.61241320219204
+RG36834,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,99.52576950608447
+RG36834,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,12.702016605367007
+RG36834,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,36.623656272951855
+RG36964,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,46.602167044501165
+RG36964,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,99.6271772846576
+RG36964,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,88.10730652904263
+RG36964,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,87.77625692728851
+RG36977,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,0
+RG36977,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,93.76756809149947
+RG36977,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,67.64069056697772
+RG36977,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,81.36003521126761
+RG37011,SARS-CoV-1,Unvaccinated,Recovered: Alpha,5.322649119082996
+RG37011,RaTG13 (bat),Unvaccinated,Recovered: Alpha,73.73137333870318
+RG37011,Rs4084 (bat),Unvaccinated,Recovered: Alpha,31.64001119314635
+RG37011,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,4.213277095176977
+RG37028,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,43.659049397995005
+RG37028,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,96.39835390946502
+RG37028,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,37.89453425712086
+RG37028,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,35.66319346662911
+RG37105,SARS-CoV-1,Unvaccinated,Recovered: Delta,14.828599953072597
+RG37105,RaTG13 (bat),Unvaccinated,Recovered: Delta,88.53991769547325
+RG37105,Rs4084 (bat),Unvaccinated,Recovered: Delta,34.99545104625936
+RG37105,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,34.84249909482239
+RG37108,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,48.6982245798387
+RG37108,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,93.41893004115227
+RG37108,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,33.3613268948142
+RG37108,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,27.53268696946533
+RG37112,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,57.23165115455219
+RG37112,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,93.8238683127572
+RG37112,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,34.41983343830918
+RG37112,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,28.631773745826123
+RG37179,SARS-CoV-1,Unvaccinated,Recovered: Delta,31.90189411889196
+RG37179,RaTG13 (bat),Unvaccinated,Recovered: Delta,81.70534979423869
+RG37179,Rs4084 (bat),Unvaccinated,Recovered: Delta,39.20935684792498
+RG37179,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,17.700446554290536
+RG37224,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,43.58773814507929
+RG37224,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,95.06831275720165
+RG37224,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,42.33938694100357
+RG37224,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,45.496238484129215
+RG37308,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,76.82599301306516
+RG37308,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,99.41843559174178
+RG37308,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,82.43116365517638
+RG37308,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,73.93265845070422
+RG37338,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,62.30520697595544
+RG37338,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,95.2606776425674
+RG37338,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,77.81650315434948
+RG37338,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,97.20738465647327
+RG37536,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Delta,16.750861284161303
+RG37536,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Delta,82.56382724886662
+RG37536,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Delta,0.5998709774713262
+RG37536,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Delta,1.7226413834546292
+RG37568,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,49.31090821720326
+RG37568,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,94.98742364355013
+RG37568,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,40.635536261266225
+RG37568,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,78.59930615784909
+RG38169,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,0.4670831331090852
+RG38169,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,96.46065397053539
+RG38169,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,53.52475814804205
+RG38169,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,28.807458803122287
+RG38224,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,68.6064154513486
+RG38224,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,96.09580052493439
+RG38224,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,85.09789793815297
+RG38224,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,99.62108566468585
+RG38262,SARS-CoV-1,Unvaccinated,Recovered: Delta,3.978247767497706
+RG38262,RaTG13 (bat),Unvaccinated,Recovered: Delta,94.54156378600823
+RG38262,Rs4084 (bat),Unvaccinated,Recovered: Delta,24.551228217509973
+RG38262,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,58.14941465180834
+RG38296,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,53.66470829096831
+RG38296,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,99.39094650205762
+RG38296,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,37.185947232136606
+RG38296,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,72.88329243271514
+RG38331,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,32.48067688902377
+RG38331,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,97.00548795036984
+RG38331,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,61.42058830921841
+RG38331,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,67.9441810776524
+RG38338,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,32.57267996889908
+RG38338,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,94.88065843621399
+RG38338,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,14.246973196164873
+RG38338,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,56.21032304783361
+RG38388,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Wuhan,29.297453147525232
+RG38388,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Wuhan,96.38878907653611
+RG38388,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Wuhan,70.7375658344168
+RG38388,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Wuhan,80.54640069384214
+RG38411,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,81.38730291640022
+RG38411,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,89.88641975308641
+RG38411,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,84.83186367135559
+RG38411,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,83.89829826608198
+RG38550,SARS-CoV-1,Unvaccinated,Recovered: Delta,20.4138813104708
+RG38550,RaTG13 (bat),Unvaccinated,Recovered: Delta,92.85267489711934
+RG38550,Rs4084 (bat),Unvaccinated,Recovered: Delta,38.09661277906081
+RG38550,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,49.3848815223076
+RG38551,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,2.883229216722725
+RG38551,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,95.98454904779015
+RG38551,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,26.94858855417705
+RG38551,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,4.20208152645273
+RG38555,SARS-CoV-1,Unvaccinated,Recovered: Delta,43.12628532782473
+RG38555,RaTG13 (bat),Unvaccinated,Recovered: Delta,88.65843621399176
+RG38555,Rs4084 (bat),Unvaccinated,Recovered: Delta,35.83613268948142
+RG38555,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,30.467071649837067
+RG38567,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,0
+RG38567,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,97.07325102880658
+RG38567,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,11.139687871789477
+RG38567,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,50.530635233535826
+RG38606,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,38.41790234499004
+RG38606,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,90.98271604938272
+RG38606,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,45.139617887885784
+RG38606,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,73.37168604417266
+RG38608,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,52.70523553667375
+RG38608,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,92.57337151037939
+RG38608,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,82.50739366113993
+RG38608,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,97.6747679775656
+RG38871,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,0
+RG38871,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,87.81890046712181
+RG38871,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,5.046387095352472
+RG38871,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,9.601040763226365
+RG38941,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,28.444908606578124
+RG38941,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,90.50864197530865
+RG38941,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,35.745153614668624
+RG38941,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,32.36593313754676
+RG38996,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,29.44970716379045
+RG38996,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,97.27407407407408
+RG38996,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,65.00892294772203
+RG38996,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,79.14470772820533
+RG39096,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,8.96449545706075
+RG39096,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,63.61250298258172
+RG39096,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,19.686827134945844
+RG39096,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,1.3161848167189731
+RG39114,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,37.67035079288803
+RG39114,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,96.73913043478261
+RG39114,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,61.8127327618502
+RG39114,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,49.67476149176062
+RG39123,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,35.95963479096588
+RG39123,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,92.84045993532159
+RG39123,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,34.928050419797714
+RG39123,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,49.770164787510836
+RG39234,SARS-CoV-1,Unvaccinated,Recovered: Delta,45.699471376583226
+RG39234,RaTG13 (bat),Unvaccinated,Recovered: Delta,58.02798353909465
+RG39234,Rs4084 (bat),Unvaccinated,Recovered: Delta,19.188711596332837
+RG39234,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,26.977511365007842
+RG39246,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Delta,40.46161260955713
+RG39246,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Delta,27.997494631352907
+RG39246,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Delta,16.57269246558701
+RG39246,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Delta,0
+RG39257,SARS-CoV-1,Unvaccinated,Recovered: Delta,59.392612154197934
+RG39257,RaTG13 (bat),Unvaccinated,Recovered: Delta,95.97037037037038
+RG39257,Rs4084 (bat),Unvaccinated,Recovered: Delta,31.163832318566733
+RG39257,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,62.21587480387819
+RG39326,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,57.6190322832943
+RG39326,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,98.76543209876543
+RG39326,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,77.17649940513682
+RG39326,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,94.44904855775033
+RG39362,SARS-CoV-1,Unvaccinated,Recovered: Delta,9.59665435205676
+RG39362,RaTG13 (bat),Unvaccinated,Recovered: Delta,53.32345679012346
+RG39362,Rs4084 (bat),Unvaccinated,Recovered: Delta,16.168906151585134
+RG39362,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,7.846481876332618
+RG39398,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,20.063904607200868
+RG39398,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,98.0971128608924
+RG39398,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,27.136621452927727
+RG39398,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,68.76043266341725
+RG39426,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,36.47133517669088
+RG39426,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,99.80576131687243
+RG39426,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,54.6757995660998
+RG39426,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,75.36629520859316
+RG39433,SARS-CoV-1,Unvaccinated,Recovered: Delta,9.670726040569207
+RG39433,RaTG13 (bat),Unvaccinated,Recovered: Delta,58.34732510288066
+RG39433,Rs4084 (bat),Unvaccinated,Recovered: Delta,1.2220939183987696
+RG39433,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,16.668946373255025
+RG39457,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,78.23316256403848
+RG39457,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,97.74516821760916
+RG39457,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,92.16984056501813
+RG39457,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,98.94421446217534
+RG39552,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,56.58413809107299
+RG39552,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,98.61608208064901
+RG39552,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,34.32920852218936
+RG39552,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,79.94508245977164
+RG39582,SARS-CoV-1,Unvaccinated,Recovered: Alpha,22.84016132455953
+RG39582,RaTG13 (bat),Unvaccinated,Recovered: Alpha,79.42005638340717
+RG39582,Rs4084 (bat),Unvaccinated,Recovered: Alpha,10.166390425554823
+RG39582,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,0
+RG39619,SARS-CoV-1,Unvaccinated,Recovered: Delta,0
+RG39619,RaTG13 (bat),Unvaccinated,Recovered: Delta,41.55720164609053
+RG39619,Rs4084 (bat),Unvaccinated,Recovered: Delta,0
+RG39619,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,0
+RG39658,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,49.037298085637914
+RG39658,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,97.44526748971194
+RG39658,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,46.11414374693821
+RG39658,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,55.1981333226053
+RG39670,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,0
+RG39670,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,95.19341563786008
+RG39670,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,2.8772132409545748
+RG39670,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,20.645291064891182
+RG39738,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,0
+RG39738,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,94.24526748971194
+RG39738,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,0
+RG39738,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,30.83638411715009
+RG39744,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,56.64137800944989
+RG39744,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,99.01563786008231
+RG39744,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,44.22020435299881
+RG39744,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,73.22846683026914
+RG39800,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,25.677870798450584
+RG39800,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,73.5087091386304
+RG39800,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,0
+RG39800,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,21.511317353275018
+RG39827,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,36.08809470134388
+RG39827,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,99.95061728395062
+RG39827,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,62.15795367065574
+RG39827,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,62.98346542221507
+RG39843,SARS-CoV-1,Unvaccinated,Recovered: Alpha,45.979268378971206
+RG39843,RaTG13 (bat),Unvaccinated,Recovered: Alpha,88.26016915022151
+RG39843,Rs4084 (bat),Unvaccinated,Recovered: Alpha,54.84641711690381
+RG39843,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,47.97817715019256
+RG39871,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,23.02354637193656
+RG39871,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,92.62486525332375
+RG39871,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,12.92227682408162
+RG39871,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,13.074588031222902
+RG39915,SARS-CoV-1,Vaccinated: 1 dose,Recovered: Alpha,42.1656537401602
+RG39915,RaTG13 (bat),Vaccinated: 1 dose,Recovered: Alpha,94.44938271604939
+RG39915,Rs4084 (bat),Vaccinated: 1 dose,Recovered: Alpha,41.25813562880537
+RG39915,GX/P1E (pangolin),Vaccinated: 1 dose,Recovered: Alpha,29.775918252403756
+RG39995,SARS-CoV-1,Unvaccinated,Recovered: Alpha,23.813061628812008
+RG39995,RaTG13 (bat),Unvaccinated,Recovered: Alpha,18.395086588803863
+RG39995,Rs4084 (bat),Unvaccinated,Recovered: Alpha,18.356760014637203
+RG39995,GX/P1E (pangolin),Unvaccinated,Recovered: Alpha,0
+RG40018,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,80.16338298894762
+RG40018,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,99.06575637800934
+RG40018,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,83.66865730844664
+RG40018,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,96.51777970511708
+RG40028,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,54.13490248761255
+RG40028,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,96.73086419753086
+RG40028,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,76.12936524599343
+RG40028,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,90.02373576859637
+RG40033,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,63.94387818853644
+RG40033,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,92.72250059651634
+RG40033,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,86.48866026022336
+RG40033,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,87.0392935834947
+RG40071,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,33.49101229895932
+RG40071,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,99.4750656167979
+RG40071,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,64.73831047512127
+RG40071,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,94.79284903518729
+RG40110,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,0
+RG40110,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,97.52147458840372
+RG40110,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,89.72930403237292
+RG40110,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,94.64762636041931
+RG40143,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,51.05228396494172
+RG40143,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,97.27093772369363
+RG40143,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,38.36995953384328
+RG40143,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,47.701475595913735
+RG40147,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,49.2190428589279
+RG40147,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,94.76258649486996
+RG40147,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,78.9701656347657
+RG40147,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,91.31501635841624
+RG40162,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,93.36575311584168
+RG40162,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,99.95720164609054
+RG40162,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,97.39309958709497
+RG40162,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,96.59733676630326
+RG40179,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,83.26163403009586
+RG40179,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,96.98162729658793
+RG40179,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,89.5449861342672
+RG40179,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,89.68000934766643
+RG40227,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,49.74384605772835
+RG40227,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,97.61691720353137
+RG40227,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,77.86509605475916
+RG40227,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,88.50821259264205
+RG40236,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,90.81595386833253
+RG40236,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,99.77542220625224
+RG40236,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,94.45778884506049
+RG40236,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,91.79531656548136
+RG40250,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,24.937077167490756
+RG40250,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,97.68551658315438
+RG40250,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,35.58759708107473
+RG40250,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,98.4325966481939
+RG40301,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,19.30556641838082
+RG40301,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,94.84444444444445
+RG40301,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,58.65788368675205
+RG40301,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,53.81663113006396
+RG40345,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,17.248888809553563
+RG40345,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,98.90539250775471
+RG40345,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,44.788411431060915
+RG40345,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,43.100253722374305
+RG40388,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,0
+RG40388,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,97.98778296802013
+RG40388,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,9.3082703453139
+RG40388,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,5.971379011274934
+RG40447,SARS-CoV-1,Unvaccinated,Recovered: Delta,28.751316957815945
+RG40447,RaTG13 (bat),Unvaccinated,Recovered: Delta,86.46913580246914
+RG40447,Rs4084 (bat),Unvaccinated,Recovered: Delta,13.821820981174326
+RG40447,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,25.401295409743724
+RG40459,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,64.80248478249229
+RG40459,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,95.63350035790981
+RG40459,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,84.03220536365083
+RG40459,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,97.31588435601255
+RG40497,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,38.37311008371861
+RG40497,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,99.79718444285373
+RG40497,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,83.61162543251871
+RG40497,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,65.88101756025907
+RG40523,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,22.53916386352715
+RG40523,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,89.20229967660798
+RG40523,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,21.00310716410675
+RG40523,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,15.572419774501299
+RG40529,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,35.322468360079256
+RG40529,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,93.31603435934144
+RG40529,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,13.238214127129083
+RG40529,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,44.54747279161381
+RG40562,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,10.297923992788412
+RG40562,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,94.29730374612265
+RG40562,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,46.950795499292056
+RG40562,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,62.476630833945386
+RG40581,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,66.60181003552239
+RG40581,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,96.35528513481269
+RG40581,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,90.58805787582
+RG40581,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,91.45022367630366
+RG40616,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,62.72945699183085
+RG40616,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,97.92490118577075
+RG40616,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,82.57343705238105
+RG40616,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,87.62792714657415
+RG40683,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,0
+RG40683,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,98.72345502266762
+RG40683,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,88.51531933075847
+RG40683,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,97.97689791012887
+RG40704,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,29.893290188878183
+RG40704,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,96.72580371772416
+RG40704,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,71.45777733017775
+RG40704,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,99.91831765186367
+RG40742,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,2.4883525820674492
+RG40742,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,98.39537103316631
+RG40742,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,91.04215015206226
+RG40742,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,98.99512585965147
+RG40744,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,11.196326780365936
+RG40744,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,99.44691358024691
+RG40744,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,50.60011197424593
+RG40744,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,70.97155730780062
+RG40758,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,69.60247050213313
+RG40758,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,97.84359341445956
+RG40758,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,79.82305481781852
+RG40758,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,98.58282700140215
+RG40815,SARS-CoV-1,Unvaccinated,Recovered: Delta,0
+RG40815,RaTG13 (bat),Unvaccinated,Recovered: Delta,85.64609053497942
+RG40815,Rs4084 (bat),Unvaccinated,Recovered: Delta,29.937364406186575
+RG40815,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,42.08955223880597
+RG40839,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,0
+RG40839,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,25.011930326890948
+RG40839,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,0
+RG40839,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,0
+RG40887,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,86.03683033685397
+RG40887,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,95.20594383863495
+RG40887,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,65.53804320459238
+RG40887,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,99.36118239051868
+RG40920,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,27.391342353823433
+RG40920,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,96.85925925925926
+RG40920,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,38.806949401637624
+RG40920,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,50.78408496600555
+RG40931,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,28.820327847734376
+RG40931,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,97.41234567901235
+RG40931,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,72.09479319756456
+RG40931,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,93.01927022569095
+RG40954,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,66.07522179182806
+RG40954,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,97.84061083273681
+RG40954,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,93.24893807756432
+RG40954,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,97.92014422113908
+RG40976,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,0
+RG40976,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,99.24242424242425
+RG40976,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,76.06464531371745
+RG40976,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,90.3660612939841
+RG41065,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,71.47140797693416
+RG41065,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,96.40675530003594
+RG41065,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,93.8319486987373
+RG41065,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,48.755420641803994
+RG41077,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Wuhan,6.435367611725127
+RG41077,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Wuhan,96.68523176428315
+RG41077,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Wuhan,38.20930386302034
+RG41077,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Wuhan,43.49522983521249
+RG41090,SARS-CoV-1,Unvaccinated,Recovered: Delta,2.649006622516552
+RG41090,RaTG13 (bat),Unvaccinated,Recovered: Delta,90.2767835838702
+RG41090,Rs4084 (bat),Unvaccinated,Recovered: Delta,13.57249976960263
+RG41090,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,16.25325499098618
+RG41091,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,0
+RG41091,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,91.40718205678836
+RG41091,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,92.3139436489917
+RG41091,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,86.51181812111905
+RG41109,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Alpha,68.5406957217849
+RG41109,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Alpha,98.0477366255144
+RG41109,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Alpha,84.7671285604311
+RG41109,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Alpha,80.96471818803556
+RG41121,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,55.294588158301366
+RG41121,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,99.8841742471326
+RG41121,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,85.82003122010171
+RG41121,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,86.92234782809719
+RG41166,SARS-CoV-1,Vaccinated: 2 doses,Recovered: Delta,93.31563925903033
+RG41166,RaTG13 (bat),Vaccinated: 2 doses,Recovered: Delta,99.93784959602237
+RG41166,Rs4084 (bat),Vaccinated: 2 doses,Recovered: Delta,97.21234704667908
+RG41166,GX/P1E (pangolin),Vaccinated: 2 doses,Recovered: Delta,94.3454238620339
+RG41173,SARS-CoV-1,Unvaccinated,Recovered: Delta,28.35186804948144
+RG41173,RaTG13 (bat),Unvaccinated,Recovered: Delta,98.39537103316631
+RG41173,Rs4084 (bat),Unvaccinated,Recovered: Delta,70.3524660896958
+RG41173,GX/P1E (pangolin),Unvaccinated,Recovered: Delta,78.96858516391801
