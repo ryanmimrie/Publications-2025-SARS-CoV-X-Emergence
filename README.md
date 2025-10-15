@@ -13,7 +13,7 @@ This repository contains data, code, and models from Imrie & Bissett et al., (20
 | └─ `Odin_Model.R`       | The Odin model script used for all figures and results                                  |
 | └─ `ABC`                | Odin.Dust scripts, output files and analysis scripts for the ABC calibration            |
 | └─ `Figures`            | Odin.Dust scripts and output files for figure model runs                                |
-| └─ `Sobol`              | Odin.Dust scripts, output files and analysis scripts for the Sobol sensitivity analysis |
+| └─ `Emulator`           | Fitting and analysis scripts for GBRT emulator and Sobol sensitivity analysis           |
 
 
 ## Model Specifications
